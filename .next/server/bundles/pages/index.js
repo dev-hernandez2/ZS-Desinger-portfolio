@@ -98,7 +98,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_stringConstant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__config_stringConstant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss__ = __webpack_require__("./resources/sass/styles.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss__);
-var _jsxFileName = "D:\\My Documents\\Web Proyects\\think-telic-static-baseapp\\pages\\index.js";
+var _jsxFileName = "D:\\My Documents\\Web Proyects\\baseapp\\pages\\index.js";
 
 
 
