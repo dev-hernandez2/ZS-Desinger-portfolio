@@ -4,6 +4,7 @@ module.exports = {
     "APP_DESCRIPTION": "",
 
     //CONTACT TABLE CONSTANTS
-    "COMPANY_EMAIL": "hello@thinktelic.com"
+    "COMPANY_EMAIL": "hello@thinktelic.com",
+    "COMPANY_TELEPHONE": ""
 
 };
