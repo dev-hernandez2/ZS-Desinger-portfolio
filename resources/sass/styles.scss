@@ -1,4 +1,14 @@
-$font-size: 10px;
-body {
-    font-size: $font-size;
-}
+
+//important utilities, must be first
+@import "utilities/_typography.scss";
+@import "utilities/_colors.scss";
+@import "utilities/_variables.scss";
+@import "utilities/_mixins.scss";
+@import "utilities/_base.scss";
+
+//componnents styles
+
+
+//pages styles 
+
+
