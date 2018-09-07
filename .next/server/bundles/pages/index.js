@@ -97,10 +97,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__ = __webpack_require__("./config/stringConstant.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_stringConstant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__config_stringConstant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss__ = __webpack_require__("./resources/sass/styles.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__resources_sass_styles_scss__);
-var _jsxFileName = "D:\\My Documents\\Web Proyects\\baseapp\\pages\\index.js";
-
+var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\pages\\index.js";
 
 
 
@@ -109,52 +106,23 @@ var Index = function Index() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+  }, __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["APP_NAME"], " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["APP_NAME"], " BaseApp"), __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["COMPANY_EMAIL"], __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "/static/homer-simpson.svg",
-    alt: "my image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }));
+  }, "The"), " BaseApp"), __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["COMPANY_EMAIL"]);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
-
-/***/ }),
-
-/***/ "./resources/sass/styles.scss":
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 

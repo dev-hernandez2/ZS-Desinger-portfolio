@@ -1,0 +1,12 @@
+
+html {height: 100vh;}
+body {
+    min-height: 100vh;
+    color: $text;
+    font-family: $family-primary;
+}
+
+h1{
+    font-family: $family-title;
+    font-size: 100px;
+}

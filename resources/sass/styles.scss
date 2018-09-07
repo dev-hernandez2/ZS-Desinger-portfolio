@@ -1,11 +1,12 @@
 
 //important utilities, must be first
-@import "../../node_modules/bulma/bulma.sass";
 @import "utilities/_typography.scss";
 @import "utilities/_colors.scss";
 @import "utilities/_variables.scss";
 @import "utilities/_mixins.scss";
+@import "../../node_modules/bulma/bulma.sass";
 @import "utilities/_base.scss";
+@import "utilities/_helpers.scss";
 
 //componnents styles
 

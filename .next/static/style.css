@@ -1,3 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya);@font-face {
+  font-family: 'aileronbold';
+  src: url("/static/fonts/Aileron-Bold-webfont.eot");
+  src: local("aileronbold"), url("/static/fonts/Aileron-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/Aileron-Bold-webfont.woff2") format("woff2"), url("/static/fonts/Aileron-Bold-webfont.woff") format("woff"), url("/static/fonts/Aileron-Bold-webfont.ttf") format("truetype"), url("/static/fonts/Aileron-Bold-webfont.svg#aileronbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronregular';
+  src: url("/static/fonts/Aileron-Regular-webfont.eot");
+  src: local("aileronregular"), url("/static/fonts/Aileron-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/Aileron-Regular-webfont.woff2") format("woff2"), url("/static/fonts/Aileron-Regular-webfont.woff") format("woff"), url("/static/fonts/Aileron-Regular-webfont.ttf") format("truetype"), url("/static/fonts/Aileron-Regular-webfont.svg#aileronbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -262,7 +276,7 @@ button,
 input,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: aileronbold, sans-serif; }
 
 code,
 pre {
@@ -271,7 +285,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: #4a4a4a;
+  color: #2E3C40;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5; }
@@ -321,7 +335,7 @@ strong {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #4a4a4a;
+  color: #2E3C40;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -1085,7 +1099,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: #2E3C40;
   display: block;
   padding: 1.25rem; }
 
@@ -1136,7 +1150,7 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #4a4a4a;
+    color: #2E3C40;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -3026,11 +3040,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #dbdbdb; }
   .progress::-webkit-progress-value {
-    background-color: #4a4a4a; }
+    background-color: #2E3C40; }
   .progress::-moz-progress-bar {
-    background-color: #4a4a4a; }
+    background-color: #2E3C40; }
   .progress::-ms-fill {
-    background-color: #4a4a4a;
+    background-color: #2E3C40;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: white; }
@@ -3256,7 +3270,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #4a4a4a;
+  color: #2E3C40;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -3498,7 +3512,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: #2E3C40;
   max-width: 100%;
   position: relative; }
 
@@ -3736,7 +3750,7 @@ a.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #4a4a4a;
+    color: #2E3C40;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -3858,7 +3872,7 @@ a.dropdown-item {
 
 .message-header {
   align-items: center;
-  background-color: #4a4a4a;
+  background-color: #2E3C40;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -3881,7 +3895,7 @@ a.dropdown-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #4a4a4a;
+  color: #2E3C40;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4433,7 +4447,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #FC466B;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -4450,7 +4464,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #3273dc; }
+    color: #f3839a; }
 
 .navbar-item {
   display: block;
@@ -4840,7 +4854,7 @@ a.navbar-item,
       color: #363636; }
 
 .panel-list a {
-  color: #4a4a4a; }
+  color: #2E3C40; }
   .panel-list a:hover {
     color: #3273dc; }
 
@@ -4899,7 +4913,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #4a4a4a;
+    color: #2E3C40;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -6418,5 +6432,20 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+html {
+  height: 100vh; }
+
+body {
+  min-height: 100vh;
+  color: #2E3C40;
+  font-family: aileronbold, sans-serif; }
+
+h1 {
+  font-family: "Alegreya", serif;
+  font-size: 100px; }
+
+.highlight {
+  color: #FC466B; }
 
 /*# sourceMappingURL=style.css.map*/

@@ -1,2 +1,35 @@
 //It needs to change depending on the bran
-$family-primary: $family-sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+@font-face {
+    font-family: 'aileronbold';
+    src: url('/static/fonts/Aileron-Bold-webfont.eot');
+    src: local('aileronbold'), 
+         url('/static/fonts/Aileron-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Aileron-Bold-webfont.woff2') format('woff2'),
+         url('/static/fonts/Aileron-Bold-webfont.woff') format('woff'),
+         url('/static/fonts/Aileron-Bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/Aileron-Bold-webfont.svg#aileronbold') format('svg');
+         font-weight: normal;
+         font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('/static/fonts/Aileron-Regular-webfont.eot');
+    src: local('aileronregular'), 
+         url('/static/fonts/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('/static/fonts/Aileron-Regular-webfont.woff') format('woff'),
+         url('/static/fonts/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/Aileron-Regular-webfont.svg#aileronbold') format('svg');
+         font-weight: normal;
+         font-style: normal;
+
+}
+
+$family-primary: aileronbold, sans-serif;
+$family-secundary: aileronregular, sans-serif;
+$family-title: 'Alegreya', serif;
