@@ -8,13 +8,15 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/fxj8vfn.css" />
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
           <NavBar />
-          <Main />
+          <div className="container">
+            <Main />
+          </div>
           <NextScript />
+          <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         </body>
       </html>
     )

@@ -8,5 +8,9 @@ body {
 
 h1{
     font-family: $family-title;
-    font-size: 100px;
 }
+
+h1.is-main-title{
+    font-size: 4.5rem;
+}
+

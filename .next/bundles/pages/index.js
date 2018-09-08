@@ -942,17 +942,61 @@ var Index = function Index() {
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    className: "is-main-title m-b-20",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["APP_NAME"], " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+  }, "Hi, I\u2019m a ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     }
-  }, "The"), " BaseApp"), __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__["COMPANY_EMAIL"]);
+  }, "Visual & Brand Designer"), " focused on user interface and experience design."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    className: "is-main-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, "Take a look around, drop me ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "is-black-link is-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "a line")), ", check my Linked", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/zoraidasalcedo",
+    className: "is-black-link is-aileron-bold",
+    target: "_black",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "in")), " or download my ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "is-black-link is-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "CV")), "."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

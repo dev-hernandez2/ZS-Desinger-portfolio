@@ -23,72 +23,90 @@ var NavBar = function NavBar() {
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-brand",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-brand",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "navbar-item",
     href: "https://bulma.io",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     }
-  }, "logo"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-burger burger",
-    "data-target": "navbarToggle",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+    className: "image is-64x64",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: "/static/assets/img/svg/ZS-Designer-Logo.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-burger burger",
+    "data-target": "navbarToggle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     id: "navbarToggle",
     className: "navbar-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 20
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "navbar-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 21
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "navbar-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 23
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "navbar-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     }
-  }, "About"))))));
+  }, "About")))))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (NavBar);
@@ -2681,37 +2699,43 @@ function (_Document) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://use.typekit.net/fxj8vfn.css",
+        href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "/_next/static/style.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_NavBar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 15
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        defer: true,
+        src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
         }
       })));
     }
