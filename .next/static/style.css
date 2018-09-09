@@ -6433,6 +6433,122 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.grid {
+  position: relative;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center; }
+
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8; }
+
+.grid figure figcaption {
+  padding: 2em;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none; }
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0; }
+
+.grid figure h2 {
+  font-size: 3rem; }
+
+.grid figure h2,
+.grid figure p {
+  margin: 0; }
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%; }
+
+figure.effect-sadie figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(44, 145, 197, 0) 0%, rgba(44, 145, 197, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(44, 145, 197, 0) 0%, rgba(44, 145, 197, 0.8) 75%);
+  content: '';
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+  transform: translate3d(0, 50%, 0); }
+
+figure.effect-sadie h2 {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s  ease-in-out;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0); }
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: opacity all 0.5s ease-in-out; }
+
+figure.effect-sadie p {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s  ease-in-out;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0); }
+
+figure.effect-sadie:hover h2 {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -45px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -45px, 0); }
+
+figure.effect-sadie:hover p {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -45px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -45px, 0); }
+
+figure.effect-sadie:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+figure.effect-sadie:hover h2, figure.effect-sadie:hover p {
+  opacity: 1; }
+
 html {
   height: 100vh; }
 
@@ -6445,7 +6561,10 @@ h1 {
   font-family: "Alegreya", serif; }
 
 h1.is-main-title {
-  font-size: 4.5rem; }
+  font-size: 3.5vw; }
+
+.footer {
+  background: #fff !important; }
 
 .highlight {
   color: #FC466B; }
@@ -6455,6 +6574,12 @@ a.is-black-link {
 
 .m-b-20 {
   margin-bottom: 20px; }
+
+.m-b-150 {
+  margin-bottom: 150px; }
+
+.m-b-100 {
+  margin-bottom: 100px; }
 
 .is-aileron-bold {
   font-family: aileronbold, sans-serif; }
