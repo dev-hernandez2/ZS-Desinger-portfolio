@@ -67,110 +67,228 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("react");
+/***/ "./components/Footer.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\components\\Footer.js";
+
+
+
+var Footer = function Footer() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
+    "class": "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+    className: "footer-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "column has-text-left has-text-centered-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, "Copyright \xA9  2018  Zoraida Salcedo"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "Terms of Use & Privacy Policy")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "column has-text-right has-text-centered-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "social-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "fab fa-twitter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "social-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "fab fa-linkedin-in",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  })))))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Footer);
 
 /***/ }),
-/* 1 */
-/***/ (function(module, exports) {
 
-module.exports = require("next/link");
+/***/ "./components/NavBar.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\components\\NavBar.js";
+
+
+
+var NavBar = function NavBar() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
+    className: "navbar is-transparent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-brand",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "navbar-item",
+    href: "https://bulma.io",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+    className: "image is-64x64",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: "/static/assets/img/svg/ZS-Designer-Logo.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-burger burger",
+    "data-target": "navbarToggle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    }
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    id: "navbarToggle",
+    className: "navbar-menu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-end",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "navbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "navbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }, "About")))))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (NavBar);
 
 /***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(3);
-
-
-/***/ }),
-/* 3 */
+/***/ "./pages/_document.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-
-// EXTERNAL MODULE: external "react"
-var external__react_ = __webpack_require__(0);
-var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
-
-// EXTERNAL MODULE: external "next/document"
-var document_ = __webpack_require__(4);
-var document__default = /*#__PURE__*/__webpack_require__.n(document_);
-
-// EXTERNAL MODULE: external "next/link"
-var link_ = __webpack_require__(1);
-var link__default = /*#__PURE__*/__webpack_require__.n(link_);
-
-// CONCATENATED MODULE: ./components/NavBar.js
-
-
-
-var NavBar_NavBar = function NavBar() {
-  return external__react__default.a.createElement("nav", {
-    className: "navbar is-transparent"
-  }, external__react__default.a.createElement("div", {
-    className: "container"
-  }, external__react__default.a.createElement("div", {
-    className: "navbar-brand"
-  }, external__react__default.a.createElement("a", {
-    className: "navbar-item",
-    href: "https://bulma.io"
-  }, external__react__default.a.createElement("figure", {
-    className: "image is-64x64"
-  }, external__react__default.a.createElement("img", {
-    src: "/static/assets/img/svg/ZS-Designer-Logo.svg"
-  }))), external__react__default.a.createElement("div", {
-    className: "navbar-burger burger",
-    "data-target": "navbarToggle"
-  }, external__react__default.a.createElement("span", null), external__react__default.a.createElement("span", null), external__react__default.a.createElement("span", null))), external__react__default.a.createElement("div", {
-    id: "navbarToggle",
-    className: "navbar-menu"
-  }, external__react__default.a.createElement("div", {
-    className: "navbar-end"
-  }, external__react__default.a.createElement("div", {
-    className: "navbar-item"
-  }, external__react__default.a.createElement(link__default.a, {
-    href: "/"
-  }, external__react__default.a.createElement("a", {
-    className: "navbar-item"
-  }, "About")))))));
-};
-
-/* harmony default export */ var components_NavBar = (NavBar_NavBar);
-// CONCATENATED MODULE: ./components/Footer.js
-
-
-
-var Footer_Footer = function Footer() {
-  return external__react__default.a.createElement("footer", {
-    "class": "footer"
-  }, external__react__default.a.createElement("div", {
-    "class": "container"
-  }, external__react__default.a.createElement("section", {
-    className: "section"
-  }, external__react__default.a.createElement("div", {
-    "class": "columns "
-  }, external__react__default.a.createElement("div", {
-    "class": "column has-text-left has-text-centered-mobile"
-  }, external__react__default.a.createElement("p", null, "Copyright \xA9  2018  Zoraida Salcedo"), external__react__default.a.createElement("p", null, "Terms of Use & Privacy Policy")), external__react__default.a.createElement("div", {
-    "class": "column has-text-right has-text-centered-mobile"
-  }, "socials")))));
-};
-
-/* harmony default export */ var components_Footer = (Footer_Footer);
-// EXTERNAL MODULE: ./resources/sass/styles.scss
-var styles = __webpack_require__(5);
-var styles_default = /*#__PURE__*/__webpack_require__.n(styles);
-
-// CONCATENATED MODULE: ./pages/_document.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _document_MyDocument; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_NavBar__ = __webpack_require__("./components/NavBar.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Footer__ = __webpack_require__("./components/Footer.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__resources_sass_styles_scss__ = __webpack_require__("./resources/sass/styles.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__resources_sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__resources_sass_styles_scss__);
+var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\pages\\_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -192,7 +310,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var _document_MyDocument =
+var MyDocument =
 /*#__PURE__*/
 function (_Document) {
   _inherits(MyDocument, _Document);
@@ -206,34 +324,121 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return external__react__default.a.createElement("html", null, external__react__default.a.createElement(document_["Head"], null, external__react__default.a.createElement("link", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        lang: "en",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        charSet: "utf-8",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/_next/static/style.css"
-      })), external__react__default.a.createElement("body", null, external__react__default.a.createElement(components_NavBar, null), external__react__default.a.createElement("div", {
-        className: "container"
-      }, external__react__default.a.createElement(document_["Main"], null)), external__react__default.a.createElement(components_Footer, null), external__react__default.a.createElement(document_["NextScript"], null), external__react__default.a.createElement("script", {
+        href: "/_next/static/style.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_NavBar__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Footer__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         defer: true,
-        src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+        src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
       })));
     }
   }]);
 
   return MyDocument;
-}(document__default.a);
+}(__WEBPACK_IMPORTED_MODULE_1_next_document___default.a);
 
 
 
 /***/ }),
-/* 4 */
+
+/***/ "./resources/sass/styles.scss":
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 0:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/_document.js");
+
+
+/***/ }),
+
+/***/ "next/document":
 /***/ (function(module, exports) {
 
 module.exports = require("next/document");
 
 /***/ }),
-/* 5 */
+
+/***/ "next/link":
 /***/ (function(module, exports) {
 
+module.exports = require("next/link");
 
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
 
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=_document.js.map

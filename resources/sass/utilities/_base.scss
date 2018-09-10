@@ -10,10 +10,54 @@ h1{
     font-family: $family-title;
 }
 
-h1.is-main-title{
-    font-size:3.5vw;
-}
 
 .footer {
     background: #fff !important;
+    margin-top: 1000px;
+
+    .footer-container {
+        margin: 0 2%; 
+        a.social-icon {
+            font-size: 2rem;
+            color: $text;
+            padding: 0% 2%
+        }
+    }
+}
+
+.navbar-item figure {
+    padding-top: 20px;
+}
+
+
+h1.is-main-title{
+    font-size:7vw;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .footer {
+        margin-top: 200%;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    h1.is-main-title{
+        font-size:3.5vw;
+    }
+    .footer {
+        margin-top: 0;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+   
 }

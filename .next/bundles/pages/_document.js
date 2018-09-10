@@ -29,13 +29,13 @@ var Footer = function Footer() {
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
-    className: "section",
+    className: "footer-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    "class": "columns ",
+    "class": "columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -62,7 +62,33 @@ var Footer = function Footer() {
       fileName: _jsxFileName,
       lineNumber: 12
     }
-  }, "socials")))));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "social-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "fab fa-twitter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "#",
+    className: "social-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+    "class": "fab fa-linkedin-in",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  })))))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Footer);
@@ -2756,6 +2782,7 @@ function (_Document) {
     key: "render",
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        lang: "en",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
@@ -2765,50 +2792,63 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 11
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "/_next/static/style.css",
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_NavBar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 17
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 18
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 19
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Footer__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 21
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 22
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         defer: true,
         src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 23
         }
       })));
     }

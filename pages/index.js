@@ -21,7 +21,7 @@ const Index = () => (
                         <figcaption>
                             <h2 className="highlight">Think Telic</h2>
                             <p>Brand Identity &#38; UX/UI Design</p>
-                            <a href="#">View more</a>
+                            <a href="/project/think-telic">View more</a>
                         </figcaption>			
                     </figure>
                 </div>
