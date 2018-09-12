@@ -32,12 +32,12 @@ const Project = ({project}) => (
 
             <>
             <iframe src={project.media.src} width="100%" height="800px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            { project.media.hasCredict ? <small>{project.media.credict}</small> : "" }
+            { project.media.hasCredict && <small>{project.media.credict}</small> }  
             </>
             : 
             <figure>
                 <img src={ project.media.src } alt="Home-ThinkTelic-Image"/> 
-                { project.media.hasCredict ? <small>{project.media.credict}</small> : "" }          		
+                { project.media.hasCredict && <small>{project.media.credict}</small> }          		
             </figure>
             }
         </section>
@@ -45,7 +45,7 @@ const Project = ({project}) => (
             {project.secondP}
         </section>
         <section>
-            {project.whatIdDo.company.isMedia ?  <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/>  : "TEXTO" }
+            {project.whatIdDo.company.isMedia ?  <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/>  : <h2>{  project.whatIdDo.company.name }</h2> }
             <h2>{ project.whatIdDo.role }</h2>
             <p>{ project.whatIdDo.description }</p>
         </section>
@@ -54,7 +54,7 @@ const Project = ({project}) => (
             <figure>
                 <img src={ project.imagesPresentation.src[0] } alt="Home-ThinkTelic-Image"/>  		
             </figure>
-            {!project.imagesPresentation.hasOnlyOneImage ? 
+            {!project.imagesPresentation.hasOnlyOneImage &&
                   <div class="columns">
                   <div class="column is-paddingless">
                     <figure>
@@ -67,9 +67,26 @@ const Project = ({project}) => (
                     </figure>
                   </div>
                   </div>
-            : "" }
+             }
 
         </section>
+        
+        <section className="section">
+            {project.lastP}
+        </section>
+
+         <section className="section" >
+            <figure >
+                <img src={ project.imagesPresentation.src[3] || project.imagesPresentation.src[2] } alt="Home-ThinkTelic-Image"/> 	
+            </figure>
+            { (project.imagesPresentation.src[4] || project.imagesPresentation.src[3]) &&
+            <figure>
+                 <img src={ project.imagesPresentation.src[4] || project.imagesPresentation.src[3] } alt="Home-ThinkTelic-Image"/>  		
+             </figure>
+            }
+             
+        </section>
+
     </section>
 )
 

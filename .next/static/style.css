@@ -6554,12 +6554,17 @@ body {
   color: #2E3C40;
   font-family: aileronbold, sans-serif; }
 
+p {
+  font-size: 1.5rem;
+  margin: 2% 0; }
+
 h1 {
   font-family: "Alegreya", serif; }
 
 .footer {
-  background: #fff !important;
-  margin-top: 1000px; }
+  background: #fff !important; }
+  .footer p {
+    font-size: 1rem; }
   .footer .footer-container {
     margin: 0 2%; }
     .footer .footer-container a.social-icon {
@@ -6572,10 +6577,6 @@ h1 {
 
 h1.is-main-title {
   font-size: 7vw; }
-
-@media (min-width: 576px) {
-  .footer {
-    margin-top: 200%; } }
 
 @media (min-width: 768px) {
   h1.is-main-title {

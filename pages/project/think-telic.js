@@ -51,15 +51,23 @@ const project = {
             src: [
                 "/static/assets/img/cs-tt/TTBCMUW.jpg",
                 "/static/assets/img/cs-tt/patters.jpeg",
-                "/static/assets/img/cs-tt/Proposal-Template-TT.jpg"
+                "/static/assets/img/cs-tt/Proposal-Template-TT.jpg",
+                "/static/assets/img/cs-tt/ThinkTelic-Mock-up-new.jpg",
+                "/static/assets/img/cs-tt/Bottom-Proyect-ThinkTelic.jpg"
             ]
-        }
+        },
 
+
+    lastP: [
+        <p>All design that fallow is base on the identity. </p>,
+        <p>Everything on the corporate website has its purpose and reason to be where it is, this website is constantly monitored and changed according to user behaviour.</p>,
+        <p>Being able to contribute to a constantly evolving business is a challenging great deed, and a very instructive experience.</p>
+
+    ]
 
 }
 
 const ThinkTelic = () => <Project project={project}/>
-
 
 export default ThinkTelic;
 
