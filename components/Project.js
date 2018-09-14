@@ -1,5 +1,29 @@
 import Link from 'next/link'
 
+
+
+
+
+
+const getProjestBackGroundColor = (color) => { 
+
+    let bgColor = ""
+
+        switch(color) {
+        case "ThinkTelic":
+            bgColor = "think-telic"
+            break
+        case "SkillsCreativeStudios":
+            bgColor = "skills"
+            break
+        default:
+            bgColor = ""
+    }
+
+    return bgColor
+}
+
+
 const Project = ({project}) => (
 
     <section className="section">
@@ -12,27 +36,27 @@ const Project = ({project}) => (
             <div class="columns">
                 <div class="column">
                 <h2>Client</h2>
-                <p>{project.client}</p>
+                <span className="regular-font">{project.client}</span>
                 </div>
                 <div class="column">
                 <h2>Roles</h2>
-                {project.roles.join(',  ')}
+                <span className="regular-font">{project.roles.join(',  ')}</span>
                 </div>
                 <div class="column">
                 <h2>Responsibilities</h2>
-                {project.responsibilities.join(',  ')}
+                <span className="regular-font">{project.responsibilities.join(',  ')}</span>
                 </div>
             </div>
         </section>
         <section className="section">
             {project.firstP}
         </section>
-        <section>
+        <section className="has-text-centered">
             {project.media.isVideo ? 
 
             <>
             <iframe src={project.media.src} width="100%" height="800px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            { project.media.hasCredict && <small>{project.media.credict}</small> }  
+            { project.media.hasCredict && <small >{project.media.credict}</small> }  
             </>
             : 
             <figure>
@@ -44,10 +68,26 @@ const Project = ({project}) => (
         <section className="section">
             {project.secondP}
         </section>
-        <section>
-            {project.whatIdDo.company.isMedia ?  <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/>  : <h2>{  project.whatIdDo.company.name }</h2> }
-            <h2>{ project.whatIdDo.role }</h2>
+        <section className={"project-details " + (getProjestBackGroundColor(project.whatIdDo.company.color))}>
+            {project.whatIdDo.company.isMedia ? 
+                <figure className="company-logo"> 
+                    <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/> 
+                </figure> : 
+                <h2 className="company-name">{  project.whatIdDo.company.name }</h2>
+            }
+            <p>{ project.whatIdDo.role }</p>
             <p>{ project.whatIdDo.description }</p>
+
+            {project.whatIdDo.hasBtn &&  
+            <div class="buttons has-addons is-centered">
+                 <button className="button hvr-shadow download-btn">
+                    Brand Guidelines
+                    <span class="icon is-medium"> 
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                    </span>
+                 </button>
+            </div>
+            }
         </section>
             
         <section className="section">

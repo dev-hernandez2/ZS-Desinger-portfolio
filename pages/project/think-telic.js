@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Project from '../../components/Project';
+import ProjectFooter from '../../components/ProjectFooter';
 
 const project = {
     logo: "",
@@ -38,9 +39,11 @@ const project = {
         <p>Creating a complete and memorable experience for Think Telic started with the name, from there a visual system was established that  would earn this business a place at the forefront of Puerto Ricos' startup scene.</p>
     ],
     whatIdDo: {
+        hasBtn: true,
         company: {
+            color: "ThinkTelic",
             isMedia: true,
-            logo: "",
+            logo: "/static/assets/img/svg/ThinkTelic-Logo.svg",
             name: ""
         },
         role: "Naming + Logo Design + Brand Development",
@@ -67,7 +70,12 @@ const project = {
 
 }
 
-const ThinkTelic = () => <Project project={project}/>
+const ThinkTelic = () => (
+    <>
+        <Project project={project}/>
+        <ProjectFooter project="ThinkTelic" />
+    </>
+)
 
 export default ThinkTelic;
 

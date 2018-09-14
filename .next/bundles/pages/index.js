@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/', function() {
           var comp =
-      webpackJsonp([5],{
+      webpackJsonp([6],{
 
 /***/ "./config/stringConstant.js":
 /***/ (function(module, exports) {
@@ -1050,152 +1050,157 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 23
     }
-  }, "Brand Identity & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, "Brand Identity & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/project/think-telic",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     }
-  }, "View more"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    }
+  }, "View more")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "grid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
     "class": "effect-sadie",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "/static/assets/img/Home-Hernandez2-Image.jpg",
     alt: "Home-ThinkTelic-Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     }
   }, "Hernandez2"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     }
   }, "Personal Brand & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     }
   }, "View more"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "grid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
     className: "effect-sadie",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "/static/assets/img/Home-Skills-Image.jpg",
     alt: "Home-ThinkTelic-Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     }
   }, "Skills Creative Studios"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     }
   }, "UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     }
   }, "View more"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "grid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
     className: "effect-sadie",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "/static/assets/img/Home-ThinkTelic-Image.jpg",
     alt: "Home-ThinkTelic-Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 59
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 60
     }
   }, "Identities & Designs"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     }
   }, "A collection of various design projects"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 62
     }
   }, "View more")))))));
 };
@@ -1223,7 +1228,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -1231,7 +1236,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[4])
+},[5])
           return { page: comp.default }
         })
       ;
