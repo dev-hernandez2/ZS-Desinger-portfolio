@@ -16,6 +16,9 @@ const getProjestBackGroundColor = (color) => {
         case "SkillsCreativeStudios":
             bgColor = "skills"
             break
+        case "Hernandez2":
+            bgColor = "h2"
+            break
         default:
             bgColor = ""
     }
@@ -29,7 +32,7 @@ const Project = ({project}) => (
     <section className="section">
         <header>
             <figure>
-                <img src={ project.heroImage } alt="Home-ThinkTelic-Image"/>           		
+                <img src={ project.heroImage }/>           		
             </figure>
         </header>
         <section className="section">
@@ -68,28 +71,30 @@ const Project = ({project}) => (
         <section className="section">
             {project.secondP}
         </section>
-        <section className={"project-details " + (getProjestBackGroundColor(project.whatIdDo.company.color))}>
-            {project.whatIdDo.company.isMedia ? 
-                <figure className="company-logo"> 
-                    <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/> 
-                </figure> : 
-                <h2 className="company-name">{  project.whatIdDo.company.name }</h2>
-            }
-            <p>{ project.whatIdDo.role }</p>
-            <p>{ project.whatIdDo.description }</p>
+        {project.whatIdDo.showSection && 
+            <section className={"project-details " + (getProjestBackGroundColor(project.whatIdDo.company.color))}>
+                {project.whatIdDo.company.isMedia ? 
+                    <figure className="company-logo"> 
+                        <img src={ project.whatIdDo.company.logo } alt="Home-ThinkTelic-Image"/> 
+                    </figure> : 
+                    <h2 className="company-name">{  project.whatIdDo.company.name }</h2>
+                }
+                <p>{ project.whatIdDo.role }</p>
+                <p>{ project.whatIdDo.description }</p>
 
-            {project.whatIdDo.hasBtn &&  
-            <div class="buttons has-addons is-centered">
-                 <button className="button hvr-shadow download-btn">
-                    Brand Guidelines
-                    <span class="icon is-medium"> 
-                        <i class="far fa-arrow-alt-circle-down"></i>
-                    </span>
-                 </button>
-            </div>
-            }
-        </section>
-            
+                {project.whatIdDo.hasBtn &&  
+                <div class="buttons has-addons is-centered">
+                    <button className="button hvr-shadow download-btn">
+                        Brand Guidelines
+                        <span class="icon is-medium"> 
+                            <i class="far fa-arrow-alt-circle-down"></i>
+                        </span>
+                    </button>
+                </div>
+                }
+            </section>
+        }
+        
         <section className="section">
             <figure>
                 <img src={ project.imagesPresentation.src[0] } alt="Home-ThinkTelic-Image"/>  		
@@ -116,11 +121,17 @@ const Project = ({project}) => (
         </section>
 
          <section className="section" >
+         {!project.imagesPresentation.hasOnlyOneImage ?
             <figure >
-                <img src={ project.imagesPresentation.src[3] || project.imagesPresentation.src[2] } alt="Home-ThinkTelic-Image"/> 	
+                <img src={ project.imagesPresentation.src[3] ||  project.imagesPresentation.src[2] } alt="Home-ThinkTelic-Image"/> 	
+            </figure> :
+            <figure >
+                <img src={ project.imagesPresentation.src[1] } alt="Home-ThinkTelic-Image"/> 	
             </figure>
-            { (project.imagesPresentation.src[4] || project.imagesPresentation.src[3]) &&
-            <figure>
+
+         }
+            { (project.imagesPresentation.src[4] ) &&
+             <figure>
                  <img src={ project.imagesPresentation.src[4] || project.imagesPresentation.src[3] } alt="Home-ThinkTelic-Image"/>  		
              </figure>
             }

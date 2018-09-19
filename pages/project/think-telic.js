@@ -39,6 +39,7 @@ const project = {
         <p>Creating a complete and memorable experience for Think Telic started with the name, from there a visual system was established that  would earn this business a place at the forefront of Puerto Ricos' startup scene.</p>
     ],
     whatIdDo: {
+        showSection: true,
         hasBtn: true,
         company: {
             color: "ThinkTelic",

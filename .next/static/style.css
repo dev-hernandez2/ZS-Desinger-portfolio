@@ -10250,6 +10250,9 @@ h1.is-main-title {
       padding-left: 15px; }
   .project-details.think-telic {
     background-color: #F7F7F7; }
+  .project-details.h2 {
+    background-color: #00335D;
+    color: #fff; }
 
 @media (min-width: 768px) {
   h1.is-main-title {

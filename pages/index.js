@@ -22,7 +22,7 @@ const Index = () => (
                             <h2 className="highlight">Think Telic</h2>
                             <p>Brand Identity &#38; UX/UI Design</p>
                             <Link href="/project/think-telic">
-                                <a>View more</a> 
+                                <a>View more about Think Telic</a> 
                             </Link>
                         </figcaption>			
                     </figure>
@@ -35,7 +35,9 @@ const Index = () => (
                         <figcaption>
                             <h2 className="highlight">Hernandez2</h2>
                             <p>Personal Brand & UX/UI Design</p>
-                            <a href="#">View more</a>
+                            <Link href="/project/hernandez2">
+                                <a>View more about Hernandez2 </a> 
+                            </Link>
                         </figcaption>			
                     </figure>
                 </div>
@@ -47,7 +49,9 @@ const Index = () => (
                         <figcaption>
                             <h2 className="highlight">Skills Creative Studios</h2>
                             <p>UX/UI Design</p>
-                            <a href="#">View more</a>
+                            <Link href="/project/skills-creative-studios">
+                                <a>View more about Skills Creative Studios </a> 
+                            </Link>
                         </figcaption>			
                     </figure>
                 </div>

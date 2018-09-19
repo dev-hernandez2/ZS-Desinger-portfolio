@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/', function() {
           var comp =
-      webpackJsonp([6],{
+      webpackJsonp([5],{
 
 /***/ "./config/stringConstant.js":
 /***/ (function(module, exports) {
@@ -1061,7 +1061,7 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 25
     }
-  }, "View more")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, "View more about Think Telic")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
@@ -1102,105 +1102,115 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 37
     }
-  }, "Personal Brand & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
+  }, "Personal Brand & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/project/hernandez2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     }
-  }, "View more"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    }
+  }, "View more about Hernandez2 ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "grid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
     className: "effect-sadie",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "/static/assets/img/Home-Skills-Image.jpg",
     alt: "Home-ThinkTelic-Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     }
   }, "Skills Creative Studios"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     }
-  }, "UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
+  }, "UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/project/skills-creative-studios",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     }
-  }, "View more"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    }
+  }, "View more about Skills Creative Studios ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "column is-half",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 59
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "grid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 60
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
     className: "effect-sadie",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 61
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "/static/assets/img/Home-ThinkTelic-Image.jpg",
     alt: "Home-ThinkTelic-Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 62
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 63
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 64
     }
   }, "Identities & Designs"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 65
     }
   }, "A collection of various design projects"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 66
     }
   }, "View more")))))));
 };
@@ -1228,7 +1238,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -1236,7 +1246,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[5])
+},[4])
           return { page: comp.default }
         })
       ;
