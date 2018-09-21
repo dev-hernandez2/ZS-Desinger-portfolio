@@ -20,7 +20,7 @@ const getProjestBackGroundColor = (color) => {
             bgColor = "h2"
             break
         default:
-            bgColor = ""
+            bgColor = undefined
     }
 
     return bgColor

@@ -2,6 +2,10 @@
     color: $highlight;
 }
 
+.bottom-highlight {
+    border-bottom: 2px solid $highlight;
+}
+
 a.is-black-link {
     color: $text;
 }
@@ -10,12 +14,25 @@ a.is-black-link {
     margin-bottom: 20px;
 }
 
+.m-b-35 {
+    margin-bottom: 35px;
+}
+
+.m-b-50 {
+    margin-bottom: 50px;
+}
+
 .m-b-150 {
     margin-bottom: 150px;
 }
 
 .m-b-100 {
     margin-bottom: 100px;
+}
+
+.p-t-35 {
+
+    padding-top: 35px;
 }
 
 .is-aileron-bold {

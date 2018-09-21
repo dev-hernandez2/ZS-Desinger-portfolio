@@ -12,9 +12,6 @@ p {
     margin: 2% 0;
 }
 
-
-
-
 h1{
     font-family: $family-title;
 }
@@ -43,6 +40,11 @@ h1{
 
 h1.is-main-title{
     font-size:7vw;
+}
+
+h2.is-sub-title{
+    font-size:4.5vw;
+    font-family: $family-title;
 }
 
 .project-footer {
@@ -96,7 +98,18 @@ h1.is-main-title{
 
 }
 
+.is-hidden-movil {
+   display: none;
+}
 
+
+
+.zory-back {
+
+    background: url("/static/assets/img/ZoraidaSalcedo-Designer.jpg") center center no-repeat;
+    background-size: cover;
+    max-height: 765px;
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -112,15 +125,28 @@ h1.is-main-title{
     h1.is-main-title{
         font-size:3.5vw;
     }
+    h2.is-sub-title{
+        font-size:2.5vw;
+        font-family: $family-title;
+    }
     .footer {
         margin-top: 0;
     }
+   
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+
+    h2.is-sub-title{
+        font-size:1.5vw;
+        font-family: $family-title;
+    }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-   
+    .is-hidden-movil {
+        display: block;
+     }
 }

@@ -197,7 +197,7 @@ var NavBar = function NavBar() {
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "navbar-item",
-    href: "https://bulma.io",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -256,7 +256,7 @@ var NavBar = function NavBar() {
       lineNumber: 22
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/",
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23

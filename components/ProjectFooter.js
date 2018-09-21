@@ -6,23 +6,23 @@ const ProjectFooter = ({ project }) => (
             <section className="column">
                 <nav className="project-footer">
                     <li>
-                        <Link href="/">
-                            <a className={(project == 'ThinkTelic') && "active"}>Think Telic <span className="regular-font">/2016-Present</span></a>
+                        <Link href="/project/think-telic">
+                            <a className={(project == 'ThinkTelic') ? "active" : undefined}>Think Telic <span className="regular-font">/2016-Present</span></a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/project/skills-creative-studios">
+                            <a className={(project == 'SkillsCreativeStudios') ? "active" : undefined}>Skills Creative Studios <span className="regular-font">/2017</span></a>
+                        </Link>
+                    </li>
+                    <li>
+                         <Link href="/project/hernandez2">
+                            <a className={(project == 'Hernandez2') ? "active" : undefined}> Hernandez2 <span className="regular-font">/2017</span></a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/">
-                            <a className={(project == 'SkillsCreativeStudios') && "active"}>Skills Creative Studios <span className="regular-font">/2017</span></a>
-                        </Link>
-                    </li>
-                    <li>
-                         <Link href="/">
-                            <a className={(project == 'Hernandez2') && "active"}> Hernandez2 <span className="regular-font">/2017</span></a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a className={(project == 'Identities&Designs') && "active"}>Identities & Designs <span className="regular-font">/2015-Present</span></a>
+                            <a className={(project == 'Identities&Designs') ? "active" : undefined}>Identities & Designs <span className="regular-font">/2015-Present</span></a>
                         </Link>
                     </li>
                 </nav>

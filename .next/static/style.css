@@ -10224,6 +10224,10 @@ h1 {
 h1.is-main-title {
   font-size: 7vw; }
 
+h2.is-sub-title {
+  font-size: 4.5vw;
+  font-family: "Alegreya", serif; }
+
 .project-footer li {
   list-style: none; }
   .project-footer li a {
@@ -10254,14 +10258,37 @@ h1.is-main-title {
     background-color: #00335D;
     color: #fff; }
 
+.is-hidden-movil {
+  display: none; }
+
+.zory-back {
+  background: url("/static/assets/img/ZoraidaSalcedo-Designer.jpg") center center no-repeat;
+  background-size: cover;
+  max-height: 765px; }
+
 @media (min-width: 768px) {
   h1.is-main-title {
     font-size: 3.5vw; }
+  h2.is-sub-title {
+    font-size: 2.5vw;
+    font-family: "Alegreya", serif; }
   .footer {
     margin-top: 0; } }
 
+@media (min-width: 992px) {
+  h2.is-sub-title {
+    font-size: 1.5vw;
+    font-family: "Alegreya", serif; } }
+
+@media (min-width: 1200px) {
+  .is-hidden-movil {
+    display: block; } }
+
 .highlight {
   color: #FC466B; }
+
+.bottom-highlight {
+  border-bottom: 2px solid #FC466B; }
 
 a.is-black-link {
   color: #2E3C40; }
@@ -10269,11 +10296,20 @@ a.is-black-link {
 .m-b-20 {
   margin-bottom: 20px; }
 
+.m-b-35 {
+  margin-bottom: 35px; }
+
+.m-b-50 {
+  margin-bottom: 50px; }
+
 .m-b-150 {
   margin-bottom: 150px; }
 
 .m-b-100 {
   margin-bottom: 100px; }
+
+.p-t-35 {
+  padding-top: 35px; }
 
 .is-aileron-bold {
   font-family: aileronbold, sans-serif; }
