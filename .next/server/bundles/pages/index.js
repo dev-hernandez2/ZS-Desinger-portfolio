@@ -207,7 +207,8 @@ function (_React$Component) {
           lineNumber: 27
         }
       }, "in")), " or download my ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "#",
+        href: "/static/ZoraidaSalcedo-CV.pdf",
+        target: "_blank",
         className: "is-black-link is-bold",
         __source: {
           fileName: _jsxFileName,

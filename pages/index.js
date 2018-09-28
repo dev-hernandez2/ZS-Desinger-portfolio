@@ -24,7 +24,7 @@ class Index extends React.Component  {
                         Hi, I’m a <span className="highlight">Visual &#38; Brand Designer</span> focused on user interface and experience design.
                 </h1>
                 <h1 className="is-main-title">
-                    Take a look around, drop me <span className={"is-black-link is-bold  clipboard " + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com"><u>a line</u></span>, check my Linked<a href="https://www.linkedin.com/in/zoraidasalcedo" className="is-black-link is-aileron-bold" target="_black"><u>in</u></a> or download my <a href="#" className="is-black-link is-bold"><u>CV</u></a>.
+                    Take a look around, drop me <span className={"is-black-link is-bold  clipboard " + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com"><u>a line</u></span>, check my Linked<a href="https://www.linkedin.com/in/zoraidasalcedo" className="is-black-link is-aileron-bold" target="_black"><u>in</u></a> or download my <a href="/static/ZoraidaSalcedo-CV.pdf" target="_blank" className="is-black-link is-bold"><u>CV</u></a>.
                 </h1>
                 </header> 
                 

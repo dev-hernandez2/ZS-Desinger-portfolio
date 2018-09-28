@@ -47,7 +47,7 @@ class ProjectFooter extends React.Component {
                 </section>
                  <section className="columns">
                     <section className="column is-4 is-offset-8">
-                        <div className=""><p>Questions? Send me <span className={"is-bold highlight  clipboard" + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com"><u>an email</u></span>, check my Linked <a href="https://www.linkedin.com/in/zoraidasalcedo/" target="_blank" className="is-bold highlight" ><u>in</u></a> or download my <a href="#" className="is-bold highlight" ><u>CV</u></a>.</p></div>
+                        <div className=""><p>Questions? Send me <span className={"is-bold highlight  clipboard" + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com"><u>an email</u></span>, check my Linked <a href="https://www.linkedin.com/in/zoraidasalcedo/" target="_blank" className="is-bold highlight" ><u>in</u></a> or download my <a href="/static/ZoraidaSalcedo-CV.pdf" target="_blank" className="is-bold highlight" ><u>CV</u></a>.</p></div>
                     </section>
                 </section>
         
