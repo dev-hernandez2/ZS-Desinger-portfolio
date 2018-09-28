@@ -25,7 +25,7 @@ const project = {
     ],
     firstP: [
         <p>Branding can add value or it can be costly.  The right agency can make all the difference.</p>,
-        <p>Think Telics' goal is to protect businesses investment in the digital medium, simplifying their message, connecting them with their customers and growing their brand by creating delightful online experiences.</p>
+        <p><a href="https://thinktelic.com/en/" target="_blank" className="is-black-link"><u>Think Telics'</u></a> goal is to protect businesses investment in the digital medium, simplifying their message, connecting them with their customers and growing their brand by creating delightful online experiences.</p>
     ],
 
     media: {
@@ -41,6 +41,7 @@ const project = {
     whatIdDo: {
         showSection: true,
         hasBtn: true,
+        btnLink: "/static/assets/img/cs-tt/ThinkTelic-BrandGuideSpecifications.pdf",
         company: {
             color: "ThinkTelic",
             isMedia: true,
@@ -56,7 +57,7 @@ const project = {
                 "/static/assets/img/cs-tt/TTBCMUW.jpg",
                 "/static/assets/img/cs-tt/patters.jpeg",
                 "/static/assets/img/cs-tt/Proposal-Template-TT.jpg",
-                "/static/assets/img/cs-tt/ThinkTelic-Mock-up-new.jpg",
+                "/static/assets/img/cs-tt/tt-tablet.jpeg",
                 "/static/assets/img/cs-tt/Bottom-Proyect-ThinkTelic.jpg"
             ]
         },

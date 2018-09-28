@@ -33,8 +33,10 @@ h1{
     }
 }
 
+
 .navbar-item figure {
     padding-top: 20px;
+    
 }
 
 
@@ -76,10 +78,23 @@ h2.is-sub-title{
         color: #fff;
         font-size: 1.5rem;
         border: none;
-    
+        -moz-border-radius:12px;
+        -webkit-border-radius:12px;
+        border-radius:12px;
+        display:inline-block;
+        cursor:pointer;
+        padding:16px 31px;
+        text-decoration:none;
+        .icon-t {
+            padding-left: 15px;
+        }
         &:hover {
             color: #fff;
             border: none;
+        }
+        &:active {
+            position:relative;
+            top:1px;
         }
     
         .icon {
@@ -109,6 +124,39 @@ h2.is-sub-title{
     background: url("/static/assets/img/ZoraidaSalcedo-Designer.jpg") center center no-repeat;
     background-size: cover;
     max-height: 765px;
+}
+.carousel-status {
+    display: none;
+}
+.carousel .slide {
+    background: #fff!important;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: $highlight 8px solid  !important;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: $highlight 8px solid  !important;
+}
+
+.dot {
+    opacity: 1 !important;
+    color: #00335D !important;
+    &.selected {
+        background: $highlight  !important;
+    }
+}
+
+.clipboard {
+    cursor: pointer;
+}
+
+.video-iframe {
+    width: 100%;
+    height: 300px;
+}
+.last-image {
+
+    margin-top: -30px;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -142,6 +190,10 @@ h2.is-sub-title{
         font-size:1.5vw;
         font-family: $family-title;
     }
+    .video-iframe {
+        width: 100%;
+        height: 700px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -149,4 +201,5 @@ h2.is-sub-title{
     .is-hidden-movil {
         display: block;
      }
+     
 }

@@ -4,7 +4,7 @@ import ProjectFooter from '../../components/ProjectFooter';
 
 const project = {
     logo: "",
-    heroImage: "/static/assets/img/Header-Proyect-Skills.jpg",
+    heroImage: "/static/assets/img/Bottom-Proyect-Skills.jpg",
     client: "Carlos “Skills” Rivera",
     roles: [
         "UX Designer",
@@ -17,7 +17,7 @@ const project = {
         "User Interface Design"
     ],
     firstP: [
-        <p>Skills Creative Studios and the Strategy-Driven Brand Consultancy Think Telic joined forces to take an Art Gallery online.</p>,
+        <p><a href="http://skillscreativestudios.com/" target="_blank" className="is-black-link"><u>Skills Creative Studios</u></a> and the Strategy-Driven Brand Consultancy Think Telic joined forces to take an Art Gallery online.</p>,
         <p>This Digital Art Space aims to be an extension of their physical location in Bayamon, Puerto Rico.</p>
     ],
 
@@ -38,8 +38,8 @@ const project = {
     imagesPresentation: {
             hasOnlyOneImage: true,
             src: [
-                "/static/assets/img/cs-scs/SCSMUA.jpg",
-                "/static/assets/img/cs-scs/sk-studio-web.jpeg"
+                "/static/assets/img/cs-scs/sk-studio-web.jpeg",
+                "/static/assets/img/Header-Proyect-Skills.jpg",
             ]
         },
 

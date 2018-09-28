@@ -1,0 +1,36 @@
+
+    .nav {
+        padding-bottom: 0;
+        height: 70px;
+        overflow: hidden;
+        padding: 15px 5%;
+    }
+
+    .main-nav {
+        float: right;
+
+    }
+
+    .main-nav li {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .nav-links {
+        //margin-left: 40px;
+        color: #FC466B;
+        font-size: 1.3rem;
+    }
+
+    .logo {
+
+        float: left;
+        height: 64px;
+        width: 64px;
+        display: block;
+    }
+
+    .nav-links:hover {
+        color: #FC466B;
+        text-decoration: underline;
+    }

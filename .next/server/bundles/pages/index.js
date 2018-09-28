@@ -72,20 +72,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./config/stringConstant.js":
-/***/ (function(module, exports) {
-
-module.exports = {
-  //DEFAULT
-  "APP_NAME": "Think Telic",
-  "APP_DESCRIPTION": "",
-  //CONTACT TABLE CONSTANTS
-  "COMPANY_EMAIL": "hello@thinktelic.com",
-  "COMPANY_TELEPHONE": ""
-};
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -95,292 +81,363 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_stringConstant__ = __webpack_require__("./config/stringConstant.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_stringConstant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__config_stringConstant__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard__ = __webpack_require__("clipboard/dist/clipboard");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard__);
 var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\pages\\index.js";
 
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
-var Index = function Index() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
-    className: "section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
+
+
+var Index =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Index, _React$Component);
+
+  function Index() {
+    var _ref;
+
+    var _temp, _this;
+
+    _classCallCheck(this, Index);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("header", {
-    className: "m-b-150",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
+
+    return _possibleConstructorReturn(_this, (_temp = _this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), Object.defineProperty(_assertThisInitialized(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {
+        clipboard: false
+      }
+    }), Object.defineProperty(_assertThisInitialized(_this), "activateLasers", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        new __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard___default.a('.clipboard');
+
+        _this.setState({
+          clipboard: true
+        });
+
+        setTimeout(function () {
+          _this.setState({
+            clipboard: false
+          });
+        }, 1000);
+      }
+    }), _temp));
+  }
+
+  _createClass(Index, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+        className: "section",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("header", {
+        className: "m-b-150",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+        className: "is-main-title m-b-20",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }, "Hi, I\u2019m a ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+        className: "highlight",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        }
+      }, "Visual & Brand Designer"), " focused on user interface and experience design."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+        className: "is-main-title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }, "Take a look around, drop me ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+        className: "is-black-link is-bold  clipboard " + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : ""),
+        "data-tooltip": "Email copyed to clipboard!",
+        onClick: this.activateLasers.bind(this),
+        "data-clipboard-text": "zoraida.salcedo@outlook.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, "a line")), ", check my Linked", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://www.linkedin.com/in/zoraidasalcedo",
+        className: "is-black-link is-aileron-bold",
+        target: "_black",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, "in")), " or download my ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "#",
+        className: "is-black-link is-bold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, "CV")), ".")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "columns is-multiline",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "column is-half",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "grid",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+        className: "effect-sadie",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "/static/assets/img/Home-ThinkTelic-Image.jpg",
+        alt: "Home-ThinkTelic-Image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "highlight",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
+      }, "Think Telic"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
+      }, "Brand Identity & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "/project/think-telic",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
+      }, "View more about Think Telic")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "column is-half",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "grid",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+        className: "effect-sadie",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "/static/assets/img/Home-Hernandez2-Image.jpg",
+        alt: "Home-ThinkTelic-Image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "highlight",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        }
+      }, "Hernandez2"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
+      }, "Personal Brand & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "/project/hernandez2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
+      }, "View more about Hernandez2 ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "column is-half",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "grid",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+        className: "effect-sadie",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "/static/assets/img/Home-Skills-Image.jpg",
+        alt: "Home-ThinkTelic-Image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "highlight",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        }
+      }, "Skills Creative Studios"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        }
+      }, "UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "/project/skills-creative-studios",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      }, "View more about Skills Creative Studios ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "column is-half",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "grid",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
+        className: "effect-sadie",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "/static/assets/img/Home-collection.jpeg",
+        alt: "Home-ThinkTelic-Image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "highlight",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        }
+      }, "Identities & Designs"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }, "A collection of various design projects"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "/project/collection-projects",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        }
+      }, "View more about Skills Creative Studios "))))))));
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "is-main-title m-b-20",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, "Hi, I\u2019m a ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "highlight",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, "Visual & Brand Designer"), " focused on user interface and experience design."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "is-main-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, "Take a look around, drop me ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "is-black-link is-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, "a line")), ", check my Linked", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "https://www.linkedin.com/in/zoraidasalcedo",
-    className: "is-black-link is-aileron-bold",
-    target: "_black",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, "in")), " or download my ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "is-black-link is-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("u", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, "CV")), ".")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "columns is-multiline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "column is-half",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "grid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
-    className: "effect-sadie",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "/static/assets/img/Home-ThinkTelic-Image.jpg",
-    alt: "Home-ThinkTelic-Image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "highlight",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    }
-  }, "Think Telic"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  }, "Brand Identity & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/project/think-telic",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    }
-  }, "View more about Think Telic")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "column is-half",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "grid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
-    "class": "effect-sadie",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "/static/assets/img/Home-Hernandez2-Image.jpg",
-    alt: "Home-ThinkTelic-Image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "highlight",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    }
-  }, "Hernandez2"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    }
-  }, "Personal Brand & UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/project/hernandez2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    }
-  }, "View more about Hernandez2 ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "column is-half",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "grid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
-    className: "effect-sadie",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "/static/assets/img/Home-Skills-Image.jpg",
-    alt: "Home-ThinkTelic-Image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "highlight",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    }
-  }, "Skills Creative Studios"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    }
-  }, "UX/UI Design"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/project/skills-creative-studios",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    }
-  }, "View more about Skills Creative Studios ")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "column is-half",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "grid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
-    className: "effect-sadie",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "/static/assets/img/Home-ThinkTelic-Image.jpg",
-    alt: "Home-ThinkTelic-Image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figcaption", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "highlight",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    }
-  }, "Identities & Designs"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    }
-  }, "A collection of various design projects"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    }
-  }, "View more")))))));
-};
+  }]);
+
+  return Index;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -391,6 +448,13 @@ var Index = function Index() {
 
 module.exports = __webpack_require__("./pages/index.js");
 
+
+/***/ }),
+
+/***/ "clipboard/dist/clipboard":
+/***/ (function(module, exports) {
+
+module.exports = require("clipboard/dist/clipboard");
 
 /***/ }),
 

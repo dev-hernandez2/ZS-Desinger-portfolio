@@ -58,7 +58,7 @@ const Project = ({project}) => (
             {project.media.isVideo ? 
 
             <>
-            <iframe src={project.media.src} width="100%" height="800px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src={project.media.src} className="video-iframe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             { project.media.hasCredict && <small >{project.media.credict}</small> }  
             </>
             : 
@@ -84,29 +84,34 @@ const Project = ({project}) => (
 
                 {project.whatIdDo.hasBtn &&  
                 <div class="buttons has-addons is-centered">
-                    <button className="button hvr-shadow download-btn">
+                    <a href={project.whatIdDo.btnLink} target="_blank" className="hvr-shadow download-btn">
                         Brand Guidelines
-                        <span class="icon is-medium"> 
+                        <span className="icon-t"> 
                             <i class="far fa-arrow-alt-circle-down"></i>
                         </span>
-                    </button>
+                    </a>
                 </div>
                 }
             </section>
         }
         
         <section className="section">
-            <figure>
-                <img src={ project.imagesPresentation.src[0] } alt="Home-ThinkTelic-Image"/>  		
-            </figure>
+            <div className="columns">
+                <figure>
+                    <div className="column is-paddingless">
+                        <img src={ project.imagesPresentation.src[0] } alt="Home-ThinkTelic-Image"/>  
+                    </div>		
+                </figure>
+            </div>
+            
             {!project.imagesPresentation.hasOnlyOneImage &&
-                  <div class="columns">
-                  <div class="column is-paddingless">
+                  <div className="columns last-image">
+                  <div className="column is-paddingless last-image">
                     <figure>
                         <img src={ project.imagesPresentation.src[1] } alt="Home-ThinkTelic-Image"/>  		
                     </figure>
                   </div>
-                  <div class="column is-paddingless">
+                  <div className="column is-paddingless last-image">
                     <figure>
                         <img src={ project.imagesPresentation.src[2] } alt="Home-ThinkTelic-Image"/>  		
                     </figure>
@@ -122,7 +127,7 @@ const Project = ({project}) => (
 
          <section className="section" >
          {!project.imagesPresentation.hasOnlyOneImage ?
-            <figure >
+            <figure>
                 <img src={ project.imagesPresentation.src[3] ||  project.imagesPresentation.src[2] } alt="Home-ThinkTelic-Image"/> 	
             </figure> :
             <figure >
@@ -131,7 +136,7 @@ const Project = ({project}) => (
 
          }
             { (project.imagesPresentation.src[4] ) &&
-             <figure>
+             <figure className="last-image">
                  <img src={ project.imagesPresentation.src[4] || project.imagesPresentation.src[3] } alt="Home-ThinkTelic-Image"/>  		
              </figure>
             }

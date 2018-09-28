@@ -34,6 +34,13 @@ a.is-black-link {
 
     padding-top: 35px;
 }
+.p-l-100 {
+    padding-left: 100px;
+}
+.m-t-100 {
+
+    margin-top: 100px;
+}
 
 .is-aileron-bold {
     font-family: $family-primary;
@@ -42,4 +49,12 @@ a.is-black-link {
 
 .is-bold{
     font-weight: bold;
+}
+
+.is-text-color {
+    color: $text;
+}
+
+.is-underline-hover:hover {
+    text-decoration: underline !important;
 }

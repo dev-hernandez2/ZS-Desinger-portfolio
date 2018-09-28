@@ -26,7 +26,7 @@ const project = {
     ],
     firstP: [
         <p>Development can be complicated.  Having a professional that understands how to choose the right stack and can code for the needs of the proyect at hand is a necesity.</p>,
-        <p>William Hernandez² has work on a variety of scenarios.  Putting the buisnesses short and long term goals into perspective has allowed him to build different Digital Products.</p>
+        <p><a href="https://hernandez2.com/" target="_blank" className="is-black-link"><u>William Hernandez²</u></a> has work on a variety of scenarios.  Putting the buisnesses short and long term goals into perspective has allowed him to build different Digital Products.</p>
     ],
 
     media: {
@@ -46,8 +46,8 @@ const project = {
         btnHref: "",
         company: {
             color: "Hernandez2",
-            isMedia: false,
-            logo: "/static/assets/img/svg/ThinkTelic-Logo.svg",
+            isMedia: true,
+            logo: "/static/assets/img/cs-h2/WilliamH2.svg",
             name: "{William Hernandez2}"
         },
         role: "Logo Design + Brand Development",

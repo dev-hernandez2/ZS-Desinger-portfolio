@@ -51,42 +51,51 @@ var Footer = function Footer() {
       fileName: _jsxFileName,
       lineNumber: 9
     }
-  }, "Copyright \xA9  2018  Zoraida Salcedo"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+  }, "Copyright \xA9  2018  Zoraida Salcedo"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/terms-of-use-and-privacy-policy",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     }
-  }, "Terms of Use & Privacy Policy")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "is-underline-hover is-text-color",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "Terms of Use & Privacy Policy"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     "class": "column has-text-right has-text-centered-mobile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
+    href: "https://twitter.com/ZoraidaSalcedo",
+    target: "_blank",
     className: "social-icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
     "class": "fab fa-twitter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     }
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
+    href: "https://www.linkedin.com/in/zoraidasalcedo/",
+    target: "_blank",
     className: "social-icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
     "class": "fab fa-linkedin-in",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     }
   })))))));
 };
@@ -109,32 +118,25 @@ var _jsxFileName = "D:\\My Documents\\Web Proyects\\ZS-Porfolio\\baseapp\\compon
 
 var NavBar = function NavBar() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
-    className: "navbar is-transparent",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
+    "class": "nav",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-brand",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "navbar-item",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("figure", {
-    className: "image is-64x64",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -145,60 +147,30 @@ var NavBar = function NavBar() {
       fileName: _jsxFileName,
       lineNumber: 10
     }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-burger burger",
-    "data-target": "navbarToggle",
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+    className: "main-nav",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    id: "navbarToggle",
-    className: "navbar-menu",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-end",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "navbar-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 15
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "navbar-item",
+    className: "nav-links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 16
     }
-  }, "About")))))));
+  }, "About"))))));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (NavBar);

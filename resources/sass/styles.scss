@@ -1,14 +1,18 @@
 
 //important utilities, must be first
-@import "utilities/_typography.scss";
-@import "utilities/_colors.scss";
-@import "utilities/_variables.scss";
-@import "utilities/_mixins.scss";
+@import "../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
+@import "utilities/_typography";
+@import "utilities/_colors";
+@import "utilities/_variables";
+@import "utilities/_mixins";
 @import "../../node_modules/bulma/bulma.sass";
+@import '../../node_modules/bulma-tooltip/dist/css/bulma-tooltip';
 @import "../../node_modules/hover.css/css/hover-min.css";
-@import "utilities/_effect.scss";
-@import "utilities/_base.scss";
-@import "utilities/_helpers.scss";
+@import "utilities/_nav";
+@import "utilities/_effect";
+@import "utilities/_base";
+@import "utilities/_helpers";
+
 
 //componnents styles
 
