@@ -1,1 +1,39 @@
-{"pages":{},"css":["static/style.css"],"main.js":["static/commons/main.js"],"bundles\\pages\\_document.js":["bundles\\pages\\_document.js"],"bundles\\pages\\_app.js":["bundles\\pages\\_app.js"],"bundles\\pages\\_error.js":["bundles\\pages\\_error.js"],"manifest.js":["static/commons/manifest.js"],"bundles\\pages\\index.js":["bundles\\pages\\index.js"],"bundles\\pages\\about.js":["bundles\\pages\\about.js"]}
+{
+  "devFiles": [
+    "static/development/dll/dll_2011977376de5c4d4cfb.js"
+  ],
+  "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/index.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/_error.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/about": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/about.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/index.js.chunk.css",
+      "static/runtime/main.js"
+    ]
+  }
+}

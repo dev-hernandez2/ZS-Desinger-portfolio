@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import ProjectFooter from '../../components/ProjectFooter'
 import ProjectSlider from '../../components/ProjectSlider'
+import Layout from '../../components/Layout'
 
 
 const polybits = {
@@ -129,7 +130,7 @@ const VirgilioQuiñones = {
 const ThinkTelic = () => (
     <section className="section">
         <header className="m-b-150 columns is-mobile bottom-highlight">
-            <div class="column is-6">
+            <div class="column is-half-widescreen is-three-quarters-mobile">
                 <h1 className="is-main-title m-b-20"> 
                     Identity <span className="highlight">&#38;</span> Designs Selected Work
                 </h1>

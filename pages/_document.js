@@ -1,7 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import "../resources/sass/styles.scss"
+
 
 
 export default class MyDocument extends Document {
@@ -12,6 +12,8 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         </Head>
         <body>
           <NavBar />

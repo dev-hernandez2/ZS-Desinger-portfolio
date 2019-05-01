@@ -1,12 +1,15 @@
 import Link from 'next/link'
 
+const year = new Date().getFullYear();
+
+
 const Footer = () => (
  <footer class="footer">
     <div class="container">
         <section className="footer-container">
             <div class="columns">
                 <div class="column has-text-left has-text-centered-mobile">
-                    <p>Copyright ©  2018  Zoraida Salcedo</p>
+                    <p>Copyright © {year} Zoraida Salcedo</p>
                     <Link href="/terms-of-use-and-privacy-policy"> 
                         <a className="is-underline-hover is-text-color">Terms of Use & Privacy Policy</a>
                     </Link>

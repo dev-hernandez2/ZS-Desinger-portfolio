@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Project from '../../components/Project';
 import ProjectFooter from '../../components/ProjectFooter';
+import Layout from '../../components/Layout'
 
 const project = {
     logo: "",

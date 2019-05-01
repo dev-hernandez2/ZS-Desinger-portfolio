@@ -54,7 +54,7 @@ h2.is-sub-title{
         list-style: none;
         a {
             color: $text;
-            font-size: 1.5rem;
+            font-size: 2.5vh;
             &.active {
                 color:#ccc;
             }
@@ -67,7 +67,7 @@ h2.is-sub-title{
 .project-details {
     padding: 100px 35px;
     .company-logo {
-        width: 60%;
+        width: 90%;
         margin: 0 auto 100px auto;
     
     }
@@ -76,7 +76,7 @@ h2.is-sub-title{
         margin-top: 35px;
         background-color: $brand;
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 2.5vh;
         border: none;
         -moz-border-radius:12px;
         -webkit-border-radius:12px;
@@ -152,7 +152,7 @@ h2.is-sub-title{
 
 .video-iframe {
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 .last-image {
 
@@ -194,6 +194,14 @@ h2.is-sub-title{
         width: 100%;
         height: 700px;
     }
+    .project-details {
+        .company-logo {
+            width: 60%;
+            margin: 0 auto 100px auto;
+        
+        }
+    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)

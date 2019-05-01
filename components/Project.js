@@ -79,7 +79,7 @@ const Project = ({project}) => (
                     </figure> : 
                     <h2 className="company-name">{  project.whatIdDo.company.name }</h2>
                 }
-                <p>{ project.whatIdDo.role }</p>
+                <p className="m-b-50">{ project.whatIdDo.role }</p>
                 <p>{ project.whatIdDo.description }</p>
 
                 {project.whatIdDo.hasBtn &&  

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Project from '../../components/Project';
 import ProjectFooter from '../../components/ProjectFooter';
+import Layout from '../../components/Layout'
 
 const project = {
     logo: "",
@@ -25,7 +26,7 @@ const project = {
     ],
     firstP: [
         <p>Branding can add value or it can be costly.  The right agency can make all the difference.</p>,
-        <p><a href="https://thinktelic.com/en/" target="_blank" className="is-black-link"><u>Think Telics'</u></a> goal is to protect businesses investment in the digital medium, simplifying their message, connecting them with their customers and growing their brand by creating delightful online experiences.</p>
+        <p><a href="https://www.thinktelic.com" target="_blank" className="is-black-link"><u>Think Telics'</u></a> goal is to protect businesses investment in the digital medium, simplifying their message, connecting them with their customers and growing their brand by creating delightful online experiences.</p>
     ],
 
     media: {
@@ -41,7 +42,7 @@ const project = {
     whatIdDo: {
         showSection: true,
         hasBtn: true,
-        btnLink: "/static/assets/img/cs-tt/ThinkTelic-BrandGuideSpecifications.pdf",
+        btnLink: "https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/ThinkTelic-BrandGuideSpecifications.pdf",
         company: {
             color: "ThinkTelic",
             isMedia: true,

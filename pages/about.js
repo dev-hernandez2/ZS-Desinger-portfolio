@@ -1,6 +1,6 @@
 
 import ClipboardJS from 'clipboard/dist/clipboard'
-
+import Layout from '../components/Layout'
 
 class About extends React.Component {
 
@@ -75,14 +75,14 @@ class About extends React.Component {
                             </div>
                             <div className="column ">
                                 <h2 className="is-sub-title highlight is-bold">Talks:</h2>
-                                <p>How to design product pages that get you more sales  <span className="regular-font">(Shopify Meetup 2017)</span></p>
-                                <p>Starting at the End  <span className="regular-font">(Google Developers Group - Women Techmakers 2017)</span></p>
-                                <p>Accessibility for Web Designers and Developers <span className="regular-font">(Google Developers Group - DevFest 2016)</span></p>
+                                <p>How to design product pages that get you more sales  <span className="regular-font">(Shopify Meetup PR 2017)</span></p>
+                                <p>Starting at the End  <span className="regular-font">(Google Developers Group PR - Women Techmakers 2017)</span></p>
+                                <p>Accessibility for Web Designers and Developers <span className="regular-font">(Google Developers Group PR - DevFest 2016)</span></p>
 
                                 <div className="columns p-t-35">
                                     <div className="column ">
                                         <h2 className="is-sub-title highlight is-bold">Contact:</h2>
-                                        <p className={"clipboard " + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com">zoraida.salcedo@outlook.com</p>
+                                        <p className={"clipboard is-size-5-mobile " + (this.state.clipboard ? "is-tooltip-top  tooltip is-tooltip-active" : "")} data-tooltip="Email copyed to clipboard!"  onClick={this.activateLasers.bind(this)} data-clipboard-text="zoraida.salcedo@outlook.com">zoraida.salcedo@outlook.com</p>
                                     </div>
                                 </div>
                             </div>

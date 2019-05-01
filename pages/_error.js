@@ -1,4 +1,4 @@
-import React from 'react'
+import Layout from '../components/Layout'
 
 export default class Error extends React.Component {
   static getInitialProps({ res, err }) {

@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import Project from '../../components/Project';
 import ProjectFooter from '../../components/ProjectFooter';
+import Layout from '../../components/Layout'
 
 const project = {
     logo: "",
     heroImage: "/static/assets/img/Header-Proyect-H2.jpg",
     client: "William Hernandez²",
     roles: [
-        "Roles",
         "Brand Designer",
         "Visual Designer",
         "UX/UI Designer",
