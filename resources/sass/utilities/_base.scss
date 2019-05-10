@@ -1,213 +1,212 @@
-
-html {height: 100vh;}
+html {
+  height: 100vh;
+}
 body {
-    min-height: 100vh;
-    color: $text;
-    font-family: $family-primary;
+  min-height: 100vh;
+  color: $text;
+  font-family: $family-primary;
 }
 
 p {
-
-    font-size: 1.5rem;
-    margin: 2% 0;
+  font-size: 1.3rem;
+  margin: 2% 0;
 }
 
-h1{
-    font-family: $family-title;
+h1,
+h2 {
+  font-family: $family-title;
 }
+
+.title-font {
+  font-family: $family-title;
+}
+
 
 
 .footer {
-    background: #fff !important;
-    //margin-top: 1000px;
-    p {
-        font-size: 1rem;
+  background: #fff !important;
+  //margin-top: 1000px;
+  p {
+    font-size: 1rem;
+  }
+  .footer-container {
+    margin: 0 2%;
+    a.social-icon {
+      font-size: 2rem;
+      color: $text;
+      padding: 0% 2%;
     }
-    .footer-container {
-        margin: 0 2%; 
-        a.social-icon {
-            font-size: 2rem;
-            color: $text;
-            padding: 0% 2%
-        }
-    }
+  }
 }
-
 
 .navbar-item figure {
-    padding-top: 20px;
-    
+  padding-top: 20px;
 }
 
-
-h1.is-main-title{
-    font-size:7vw;
+h1.is-main-title {
+  font-size: 7vw;
 }
 
-h2.is-sub-title{
-    font-size:4.5vw;
-    font-family: $family-title;
+h2.is-sub-title {
+  font-size: 4.5vw;
+  font-family: $family-title;
+}
+
+.highlight-border {
+  border: $highlight 1px solid !important;
 }
 
 .project-footer {
-    li {
-        list-style: none;
-        a {
-            color: $text;
-            font-size: 2.5vh;
-            &.active {
-                color:#ccc;
-            }
-        }
+  li {
+    list-style: none;
+    a {
+      color: $text;
+      font-size: 2.5vh;
+      &.active {
+        color: #ccc;
+      }
     }
+  }
 }
 
-
-
 .project-details {
-    padding: 100px 35px;
-    .company-logo {
-        width: 90%;
-        margin: 0 auto 100px auto;
-    
+  padding: 100px 35px;
+  .company-logo {
+    width: 90%;
+    margin: 0 auto 100px auto;
+  }
+
+  .download-btn {
+    margin-top: 35px;
+    background-color: $brand;
+    color: #fff;
+    font-size: 2.5vh;
+    border: none;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 31px;
+    text-decoration: none;
+    .icon-t {
+      padding-left: 15px;
+    }
+    &:hover {
+      color: #fff;
+      border: none;
+    }
+    &:active {
+      position: relative;
+      top: 1px;
     }
 
-    .download-btn {
-        margin-top: 35px;
-        background-color: $brand;
-        color: #fff;
-        font-size: 2.5vh;
-        border: none;
-        -moz-border-radius:12px;
-        -webkit-border-radius:12px;
-        border-radius:12px;
-        display:inline-block;
-        cursor:pointer;
-        padding:16px 31px;
-        text-decoration:none;
-        .icon-t {
-            padding-left: 15px;
-        }
-        &:hover {
-            color: #fff;
-            border: none;
-        }
-        &:active {
-            position:relative;
-            top:1px;
-        }
-    
-        .icon {
-            padding-left: 15px;
-        }
+    .icon {
+      padding-left: 15px;
     }
-    
-    &.think-telic {
-        background-color: #F7F7F7;
-    }
+  }
 
-    &.h2 {
-        background-color: #00335D;
-        color: #fff;
-    }
+  &.think-telic {
+    background-color: #f7f7f7;
+  }
 
+  &.h2 {
+    background-color: #00335d;
+    color: #fff;
+  }
 }
 
 .is-hidden-movil {
-   display: none;
+  display: none;
 }
-
-
 
 .zory-back {
-
-    background: url("/static/assets/img/ZoraidaSalcedo-Designer.jpg") center center no-repeat;
-    background-size: cover;
-    max-height: 765px;
+  background: url("https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/About-Photos.png")
+    center center no-repeat;
+  background-size: cover;
+  max-height: 765px;
 }
 .carousel-status {
-    display: none;
+  display: none;
 }
 .carousel .slide {
-    background: #fff!important;
+  background: #fff !important;
 }
 .carousel .control-prev.control-arrow:before {
-    border-right: $highlight 8px solid  !important;
+  border-right: $highlight 8px solid !important;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: $highlight 8px solid  !important;
+  border-left: $highlight 8px solid !important;
 }
 
 .dot {
-    opacity: 1 !important;
-    color: #00335D !important;
-    &.selected {
-        background: $highlight  !important;
-    }
+  opacity: 1 !important;
+  color: #00335d !important;
+  &.selected {
+    background: $highlight !important;
+  }
 }
 
 .clipboard {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .video-iframe {
-    width: 100%;
-    height: 200px;
+  width: 100%;
+  height: 200px;
 }
 .last-image {
-
-    margin-top: -30px;
+  margin-top: -30px;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    .footer {
-        //margin-top: 200%;
-    }
- }
+  .footer {
+    //margin-top: 200%;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    h1.is-main-title{
-        font-size:3.5vw;
-    }
-    h2.is-sub-title{
-        font-size:2.5vw;
-        font-family: $family-title;
-    }
-    .footer {
-        margin-top: 0;
-    }
-   
+  h1.is-main-title {
+    font-size: 3.5vw;
+  }
+  h2.is-sub-title {
+    font-size: 2.5vw;
+    font-family: $family-title;
+  }
+  .footer {
+    margin-top: 0;
+  }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-
-    h2.is-sub-title{
-        font-size:1.5vw;
-        font-family: $family-title;
+@media (min-width: 992px) {
+  h2.is-sub-title {
+    font-size: 1.5vw;
+    font-family: $family-title;
+  }
+  .video-iframe {
+    width: 100%;
+    height: 700px;
+  }
+  .project-details {
+    .company-logo {
+      width: 60%;
+      margin: 0 auto 100px auto;
     }
-    .video-iframe {
-        width: 100%;
-        height: 700px;
-    }
-    .project-details {
-        .company-logo {
-            width: 60%;
-            margin: 0 auto 100px auto;
-        
-        }
-    }
-
+  }
+  .p-100 {
+    padding: 35px 100px 0 100px;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    .is-hidden-movil {
-        display: block;
-     }
-     
+@media (min-width: 1200px) {
+  .is-hidden-movil {
+    display: block;
+  }
 }
+
