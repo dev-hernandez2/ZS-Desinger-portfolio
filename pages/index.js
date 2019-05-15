@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ClipboardJS from "clipboard/dist/clipboard";
 import Layout from "../components/Layout";
+import ProjectCard from "../components/projectCard";
 
 class Index extends React.Component {
   state = {
@@ -18,11 +19,10 @@ class Index extends React.Component {
       <section className="section">
         <header className="m-b-150">
           <h1 className="is-main-title m-b-20">
-            Hi, I’m a{" "}
-            <span className="highlight">Visual &#38; Brand Designer</span>{" "}
+            Hi, I’m a <span className="highlight" >Product Designer</span>{" "}
             focused on user interface and experience design.
           </h1>
-          <h1 className="is-main-title">
+          <h1  className="is-main-title">
             Take a look around, drop me{" "}
             <span
               className={
@@ -32,10 +32,10 @@ class Index extends React.Component {
                   : "")
               }
               data-tooltip="Email copyed to clipboard!"
-              onClick={this.activateLasers.bind(this)}
+              onClick={this.activateLasers}
               data-clipboard-text="zoraida.salcedo@outlook.com"
             >
-              <u>a line</u>
+              <u  >a line</u>
             </span>
             , check my Linked
             <a
@@ -73,7 +73,7 @@ class Index extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="columns is-multiline ">
+            <div className="columns is-multiline section">
               <div className="column">
                 <i>
                   <img src="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/UX-Design-Icon.svg" />
@@ -86,7 +86,7 @@ class Index extends React.Component {
               </div>
               <div className="column">
                 <i>
-                  <img src="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/UX-Design-Icon.svg" />
+                  <img src="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/UI-Design-Icon.svg" />
                 </i>
                 <h3>UI Design</h3>
                 <p className="is-size-7">
@@ -114,47 +114,70 @@ class Index extends React.Component {
           </div>
         </div>
         <div className="columns is-multiline section">
-          <div className="column is-full">
-            <div className="card highlight-border">
-              <div className="columns">
-                <div className="column">
-                  <img
-                    src="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/st/ST-Home.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="column ">
-                  <div className="columns is-multiline">
-                    <div className="column">
-                      <div class="card-content">
-                        <div className="content">
-                          <span className="is-size-3 highlight">StayTuned</span>
-                          <h3 className="is-size-3 title-font">
-                            Online Management Software
-                          </h3>
-                          <p>
-                            I led the design of this dual dashboard that
-                            provides managers with the tools they need to manage
-                            employees and provides a better customer experience
-                            that provides easier collaboration.
-                          </p>
-                          <div className="columns is-multiline section p-100 ">
-                            <div className="column"> <a class="button is-danger">read full case study</a></div>
-                            <div className="column">
-                              {" "}
-                              <p className="is-size-7">
-                                UX | UI | Product Design{" "}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <ProjectCard imgSrc="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/st/ST-Home.jpg">
+            <span className="is-size-3 highlight">StayTuned</span>
+            <h3 className="is-size-3 title-font">Online Management Software</h3>
+            <p>
+              I led the design of this dual dashboard that provides managers
+              with the tools they need to manage employees and provides a better
+              customer experience that provides easier collaboration.
+            </p>
+            <div className="columns is-multiline section p-100 ">
+              <div className="column">
+                {" "}
+                <a className="button button-shadow is-danger">
+                  read full case study
+                </a>
+              </div>
+              <div className="column">
+                {" "}
+                <p className="is-size-7">UX | UI | Product Design </p>
               </div>
             </div>
-          </div>
+          </ProjectCard>
+          <ProjectCard imgSrc="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/scs/SCS-Home.jpg">
+            <span className="is-size-3 highlight">Skills Creative Studios</span>
+            <h3 className="is-size-3 title-font">Responsive Website Design</h3>
+            <p>
+              I designed this digital space that aimed to break from the typical
+              fine-arts gallery format. The result is daring on aesthetics and
+              effortless to use.
+            </p>
+            <div className="columns is-multiline section p-100 ">
+              <div className="column">
+                {" "}
+                <a className="button button-shadow is-danger">
+                  read full case study
+                </a>
+              </div>
+              <div className="column">
+                {" "}
+                <p className="is-size-7">UX | UI </p>
+              </div>
+            </div>
+          </ProjectCard>
+          <ProjectCard imgSrc="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/h2/H2-Home.jpg">
+            <span className="is-size-3 highlight">Hernandez²</span>
+            <h3 className="is-size-3 title-font">
+              Responsive Portfolio Design
+            </h3>
+            <p>
+              I helped Hernandez² with the design for his portfolio and brand.
+              The goal: to get a job offer as a software developer.
+            </p>
+            <div className="columns is-multiline section p-100 ">
+              <div className="column">
+                {" "}
+                <a className="button button-shadow is-danger">
+                  read full case study
+                </a>
+              </div>
+              <div className="column">
+                {" "}
+                <p className="is-size-7">UX | UI | Visual Design </p>
+              </div>
+            </div>
+          </ProjectCard>
         </div>
       </section>
     );

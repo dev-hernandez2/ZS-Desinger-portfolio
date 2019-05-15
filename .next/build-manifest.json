@@ -16,9 +16,13 @@
     ],
     "/_error": [
       "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/about": [
+      "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
-      "static/css/static/development/pages/_error.js.chunk.css",
+      "static/css/static/development/pages/about.js.chunk.css",
       "static/runtime/main.js"
     ],
     "/index": [
