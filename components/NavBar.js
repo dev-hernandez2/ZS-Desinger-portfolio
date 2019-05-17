@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+
 import Link from "next/link";
 
-class NavBar extends Component {
+class NavBar extends  React.Component {
   state = {
     isActive: false
   };
