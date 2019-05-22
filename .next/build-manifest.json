@@ -1,24 +1,63 @@
 {
   "devFiles": [
-    "static/development/dll/dll_2011977376de5c4d4cfb.js"
+    "static/development/dll/dll_54a469c88c7f455941cb.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/index.js.chunk.css",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/_error": [
       "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/css/static/development/pages/_error.js.chunk.css",
       "static/runtime/main.js"
     ],
-    "/project/stay-tunes": [
+    "/about": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
-      "static/css/static/development/pages/project/stay-tunes.js.chunk.css",
+      "static/css/static/development/pages/about.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/index.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/project": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/project.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/project/hernandez2": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/project/hernandez2.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/project/stay-tuned": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/project/stay-tuned.js.chunk.css",
+      "static/runtime/main.js"
+    ],
+    "/terms-of-use-and-privacy-policy": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/terms-of-use-and-privacy-policy.js.chunk.css",
       "static/runtime/main.js"
     ]
   }

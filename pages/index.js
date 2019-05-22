@@ -19,10 +19,10 @@ class Index extends React.Component {
       <section className="section">
         <header className="m-b-150">
           <h1 className="is-main-title m-b-20">
-            Hi, I’m a <span className="highlight" >Product Designer</span>{" "}
+            Hi, I’m a <span className="highlight">Product Designer</span>{" "}
             focused on user interface and experience design.
           </h1>
-          <h1  className="is-main-title">
+          <h1 className="is-main-title">
             Take a look around, drop me{" "}
             <span
               className={
@@ -35,7 +35,7 @@ class Index extends React.Component {
               onClick={this.activateLasers}
               data-clipboard-text="zoraida.salcedo@outlook.com"
             >
-              <u  >a line</u>
+              <u>a line</u>
             </span>
             , check my Linked
             <a
@@ -46,13 +46,11 @@ class Index extends React.Component {
               <u>in</u>
             </a>{" "}
             or download my{" "}
-            <a
-              href="/static/ZoraidaSalcedo-CV.pdf"
-              target="_blank"
-              className="is-black-link is-bold"
-            >
-              <u>CV</u>
-            </a>
+            <Link href="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/documents/ZoraidaSalcedo-CV-.pdf">
+              <a target="_blank" className="is-black-link is-bold">
+                <u>CV</u>
+              </a>
+            </Link>
             .
           </h1>
         </header>
@@ -125,9 +123,11 @@ class Index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/stay-tuned">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}
@@ -146,9 +146,11 @@ class Index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/skills-creative-studios">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}
@@ -168,9 +170,11 @@ class Index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/hernandez2">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}

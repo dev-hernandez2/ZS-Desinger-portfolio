@@ -28,14 +28,14 @@ class NavBar extends  React.Component {
             <div class="navbar-start" />
 
             <div class="navbar-end">
-              <Link href="/#">
+              <Link href="/project">
                 <a className="navbar-item nav-links">Projects</a>
               </Link>
               <Link href="/about">
                 <a className="navbar-item nav-links">About</a>
               </Link>
-              <Link href="/#">
-                <a className="navbar-item nav-links">Resume</a>
+              <Link href="https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/documents/ZoraidaSalcedo-CV-.pdf">
+                <a className="navbar-item nav-links"  target="_blank">Resume</a>
               </Link>
             </div>
           </div>

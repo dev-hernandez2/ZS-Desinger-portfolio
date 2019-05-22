@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import ProjectCard from "../../components/projectCard";
-
+import Link from "next/link";
 export default class index extends React.Component {
   render() {
     return (
@@ -62,9 +62,11 @@ export default class index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/stay-tuned">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}
@@ -124,9 +126,11 @@ export default class index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/skills-creative-studios">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}
@@ -173,9 +177,11 @@ export default class index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow is-danger">
-                  read full case study
-                </a>
+                <Link href="/project/hernandez2">
+                  <a className="button button-shadow is-danger">
+                    read full case study
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}
@@ -195,9 +201,11 @@ export default class index extends React.Component {
             <div className="columns is-multiline section p-100 ">
               <div className="column">
                 {" "}
-                <a className="button button-shadow border-highlight">
-                  view collection
-                </a>
+                <Link href="/project/collection-projects">
+                  <a className="button button-shadow border-highlight">
+                    view collection
+                  </a>
+                </Link>
               </div>
               <div className="column">
                 {" "}

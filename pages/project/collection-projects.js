@@ -34,32 +34,37 @@ const polybits = {
 }
 
 
+const tttext = `The icon is a defragmentation of a mathematical analogy: Think is less than (<) Telic; purpose is the key to all strategy.  From there a visual system was established, being able to contribute witha startup has been a challenging great deed, and a very instructive experience.`;
 
-const StayTuned = {
-    client: "StayTuned.tv",
+const thinkTelic = {
+    client: "thinktelic.com",
     roles: [
-        "Product Designer",
+        "Brand Designer",
+        "Visual Designer",
         "UX Designer",
         "UI Designer"
-
     ],
     responsibilities: [
         "Research", 
-        "User Experience Design",      
-        "User Interface Design" 
+        "Ideation",      
+        "Concept Creation" ,
+        "Brand Identity",
+        "Business Collateral Design",
+        "UX and UI"
     
     ],
 
     firstP: [
-        <p>Product Design for StayTuned.tv a YouTube partner growing among the Latin music landscape.</p>,
+        <p>It started with the name, Telic means doing something with a purposeful action, Think Telic means to think about doing something purposeful.</p>,
         <p>
-            The web application is simple and convenient to use.  It allows company management to define employees roles and access to delicate information.  It let’s employees request specific files from users, upload documentation and choose specific individuals as recipient.  The users, on the other end, can upload media files, have customizable profiles with links to their social media accounts, and receive a monthly report which they can download or print.
+            {tttext}
         </p>
     ],
     carousel: [
-        {src: "/static/assets/img/colletions/StayTuned/1-ST-MU-Mov.jpg", alt: ""},
-        {src: "/static/assets/img/colletions/StayTuned/2-ST-MU-DT.jpg", alt: ""},
-        {src: "/static/assets/img/colletions/StayTuned/3-ST-MU-App.jpg", alt: ""}
+        {src: "https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/ThinkTelic-Collection/1-ThinkTelic-Icon.jpg", alt: ""},
+        {src: "https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/ThinkTelic-Collection/2-ThinkTelic-BC.jpg", alt: ""},
+        {src: "https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/ThinkTelic-Collection/3-ThinkTelic-Web.jpg", alt: ""},
+        {src: "https://s3.us-east-2.amazonaws.com/porfolio-bucket/zory-porfolio/images/ThinkTelic-Collection/4-ThinkTelic-LogoW.jpg", alt: ""}
     ]
 
 }
@@ -141,8 +146,8 @@ const ThinkTelic = () => (
             <ProjectSlider project={polybits} />
         </section>
         <section className="bottom-highlight m-t-100">
-            <h2 className="highlight is-sub-title is-bold p-l-100">StayTuned.tv</h2>
-            <ProjectSlider project={StayTuned} />
+            <h2 className="highlight is-sub-title is-bold p-l-100">thinktelic.com</h2>
+            <ProjectSlider project={thinkTelic} />
         </section>
         <section className="bottom-highlight m-t-100">
             <h2 className="highlight is-sub-title is-bold p-l-100">Primitivo Marchand</h2>
