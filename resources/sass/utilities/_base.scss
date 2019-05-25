@@ -6,7 +6,9 @@ body {
   color: $text;
   font-family: $family-primary;
 }
-
+p.no-margin-t {
+  margin-top: 0;
+}
 p {
   font-size: 1.3rem;
   margin: 2% 0;
@@ -172,7 +174,7 @@ h2.is-sub-title {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   h1.is-main-title {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   h2.is-sub-title {
     font-size: 2.5vw;

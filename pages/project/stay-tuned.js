@@ -11,12 +11,12 @@ const project = {
   ],
 
   about: [
-    <p className="is-size-4 aileron-bold">
+    <p className="is-size-4">
       The goal for this project was to give StayTuned an online management
       software (OMS) that would set them apart from other YouTube Partners in
       the Latin America market, by providing direct insides at a quick pace.
     </p>,
-    <p className="is-size-4 aileron-bold">
+    <p className="is-size-4">
       With offices in Miami, Florida, and Medellin, Colombia they were in need
       of giving more control to their staff and clients. The OMS became a tool
       to better manage profiles, media, invoicing, and reports.

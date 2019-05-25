@@ -28,19 +28,19 @@ const CaseStudy = ({ project }) => (
       <div className="column is-half">{project.about}</div>
       <div className="column is-half">
         <h5 className="is-size-6">TEAM</h5>
-        <p className="is-size-6 regular-font">{project.details.team}</p>
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">{project.details.team}</p>
         <h5 className="is-size-6">DURATION</h5>
-        <p className="is-size-6 regular-font">{project.details.duration}</p>
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">{project.details.duration}</p>
         <h5 className="is-size-6">RESPONSIBILITIES</h5>
-        <p className="is-size-6 regular-font">
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">
           {project.details.responsibilities}
         </p>
         <h5 className="is-size-6">CONTRIBUTION</h5>
-        <p className="is-size-6 regular-font">{project.details.contribution}</p>
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">{project.details.contribution}</p>
         <h5 className="is-size-6">CHALLENGE</h5>
-        <p className="is-size-6 regular-font">{project.details.challenge}</p>
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">{project.details.challenge}</p>
         <h5 className="is-size-6">TOOLS</h5>
-        <p className="is-size-6 regular-font">{project.details.tools}</p>
+        <p className="is-size-6 m-b-20 no-margin-t regular-font">{project.details.tools}</p>
       </div>
     </div>
 

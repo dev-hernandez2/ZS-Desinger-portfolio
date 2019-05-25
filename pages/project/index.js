@@ -22,7 +22,9 @@ export default class index extends React.Component {
                   <span className="is-size-7">CLIENT</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">StayTuned</span>
+                  <span className="has-text-left is-size-7 regular-font">
+                    StayTuned
+                  </span>
                 </div>
               </div>
               <div className="columns">
@@ -30,7 +32,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">PROCESS</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Research, structure, UX/UI design, user testing and
                     iterations
                   </span>
@@ -41,7 +43,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">SOLUTION </span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Two dashboard where build to provide management and clients
                     the resources they needed to work productively together
                   </span>
@@ -52,7 +54,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">OUTCOME </span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Significant engagement and data entry, positive end-user
                     involvement, 55% time saving per enrollment
                   </span>
@@ -70,7 +72,7 @@ export default class index extends React.Component {
               </div>
               <div className="column">
                 {" "}
-                <p className="is-size-7">(00 minute read)</p>
+                <p className="is-size-7">(5.00 minutes read)</p>
               </div>
             </div>
           </ProjectCard>
@@ -84,7 +86,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">CLIENT</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Skills Creative Studios
                   </span>
                 </div>
@@ -94,7 +96,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">PROCESS</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Research, structure, UX and UI design
                   </span>
                 </div>
@@ -104,7 +106,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">SOLUTION </span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     This website encompasses diverse art forms and structures
                     them in such a way they become an extention of their
                     physical location
@@ -116,7 +118,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">OUTCOME </span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Achived brand recognition in the local art landscape, and
                     open international opportunities for artists
                   </span>
@@ -134,7 +136,7 @@ export default class index extends React.Component {
               </div>
               <div className="column">
                 {" "}
-                <p className="is-size-7">(00 minute read) </p>
+                <p className="is-size-7">(3.70 minutes read) </p>
               </div>
             </div>
           </ProjectCard>
@@ -146,7 +148,9 @@ export default class index extends React.Component {
                   <span className="is-size-7">CLIENT</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">W. Hernandez</span>
+                  <span className="has-text-left is-size-7 regular-font">
+                    W. Hernandez
+                  </span>
                 </div>
               </div>
               <div className="columns">
@@ -154,11 +158,19 @@ export default class index extends React.Component {
                   <span className="is-size-7">PROCESS</span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Research, structure, brand development, UX and UI design
-                    SOLUTION This website serves as the portfolio for W.
-                    Hernandez, a software developer looking for new
-                    opportunities
+                  </span>
+                </div>
+              </div>
+              <div className="columns">
+                <div className="column is-one-fifth">
+                  <span className="is-size-7">SOLUTION </span>
+                </div>
+                <div className="column">
+                  <span className="has-text-left is-size-7 regular-font">
+                    This website serves as the portfolio for W. Hernandez, a
+                    software developer looking for new opportunities
                   </span>
                 </div>
               </div>
@@ -167,7 +179,7 @@ export default class index extends React.Component {
                   <span className="is-size-7">OUTCOME </span>
                 </div>
                 <div className="column">
-                  <span className="has-text-left is-size-7">
+                  <span className="has-text-left is-size-7 regular-font">
                     Gained recognition in his industry, landed a job within
                     three months of launching
                   </span>
@@ -185,7 +197,7 @@ export default class index extends React.Component {
               </div>
               <div className="column">
                 {" "}
-                <p className="is-size-7">(00 minute read)</p>
+                <p className="is-size-7">(3.00 minutes read)</p>
               </div>
             </div>
           </ProjectCard>
@@ -194,7 +206,7 @@ export default class index extends React.Component {
               Identity <span className="highlight">&</span>Designs Selected Work
             </h3>
             <div className="column is-half p-b-t-50">
-              <h4 className="is-size-3">
+              <h4 className="is-size-3 regular-font">
                 A collection of various design projects.
               </h4>
             </div>

@@ -34,10 +34,10 @@ const polybits = {
 }
 
 
-const tttext = `The icon is a defragmentation of a mathematical analogy: Think is less than (<) Telic; purpose is the key to all strategy.  From there a visual system was established, being able to contribute witha startup has been a challenging great deed, and a very instructive experience.`;
+const tttext = `The icon is a defragmentation of a mathematical analogy: Think is less than (<) Telic; purpose is the key to all strategy.  From there a visual system was established, being able to contribute with a startup has been a challenging great deed, and a very instructive experience.`;
 
 const thinkTelic = {
-    client: "thinktelic.com",
+    client: "Think Telic",
     roles: [
         "Brand Designer",
         "Visual Designer",
@@ -55,7 +55,7 @@ const thinkTelic = {
     ],
 
     firstP: [
-        <p>It started with the name, Telic means doing something with a purposeful action, Think Telic means to think about doing something purposeful.</p>,
+        <p>Logo Design, Branding, Collateral and Digital Applications for this firm started by developing an identity, that started with their name. Telic means doing something with a purposeful action, Think Telic means to think about doing something purposeful.</p>,
         <p>
             {tttext}
         </p>
@@ -141,19 +141,19 @@ const ThinkTelic = () => (
                 </h1>
             </div>
         </header>
-        <section className="bottom-highlight m-t-100">
+        <section className="bottom-highlight m-t-50">
             <h2 className="highlight is-sub-title is-bold p-l-100">Polybits</h2>
             <ProjectSlider project={polybits} />
         </section>
-        <section className="bottom-highlight m-t-100">
-            <h2 className="highlight is-sub-title is-bold p-l-100">thinktelic.com</h2>
+        <section className="bottom-highlight m-t-50">
+            <h2 className="highlight is-sub-title is-bold p-l-100">Think Telic</h2>
             <ProjectSlider project={thinkTelic} />
         </section>
-        <section className="bottom-highlight m-t-100">
+        <section className="bottom-highlight m-t-50">
             <h2 className="highlight is-sub-title is-bold p-l-100">Primitivo Marchand</h2>
             <ProjectSlider project={PrimitivoMarchandSchool} />
         </section>
-        <section className="bottom-highlight m-t-100">
+        <section className="bottom-highlight m-t-50">
             <h2 className="highlight is-sub-title is-bold p-l-100">VAR</h2>
             <ProjectSlider project={VirgilioQuiñones} />
         </section>

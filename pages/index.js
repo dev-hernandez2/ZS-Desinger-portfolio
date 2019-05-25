@@ -17,7 +17,7 @@ class Index extends React.Component {
   render() {
     return (
       <section className="section">
-        <header className="m-b-150">
+        <header className="m-b-100">
           <h1 className="is-main-title m-b-20">
             Hi, I’m a <span className="highlight">Product Designer</span>{" "}
             focused on user interface and experience design.

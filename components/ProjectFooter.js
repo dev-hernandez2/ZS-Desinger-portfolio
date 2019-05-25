@@ -21,10 +21,10 @@ class ProjectFooter extends React.Component {
           <section className="column">
             <nav className="project-footer">
               <li>
-                <Link href="/project/stay-tunes">
+                <Link href="/project/stay-tuned">
                   <a className={project == "StayTuned" ? "active" : undefined}>
                     Stay Tuned{" "}
-                    <span className="regular-font">/2016-Present</span>
+                    <span className="regular-font">/2016</span>
                   </a>
                 </Link>
               </li>

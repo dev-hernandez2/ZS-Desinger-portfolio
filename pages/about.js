@@ -86,24 +86,25 @@ class About extends React.Component {
                       <h2 className="is-sub-title highlight is-bold">
                       Education:
                       </h2>
-                      <p>
-                      BFA - Digital Art and Design | Motion Minor <span className="regular-font">(EAPD)</span>
+                      <p className="is-bold">
+                      BFA - Digital Art and Design
                       </p>
+                      <p><span className="is-bold">| Motion Minor </span> <span className="regular-font">(EAPD)</span></p>
                     </div>
                     <div className="column is-full">
                       <h2 className="is-sub-title highlight is-bold">
                         Certifications:
                       </h2>
                       <p>
-                        Growth-Driven Design Agency Certified{" "}
+                        <span className="is-bold">Growth-Driven Design Agency Certified</span>{" "}
                         <span className="regular-font">(Hubspot)</span>
                       </p>
                       <p>
-                        Certified Ecommerce Marketing Specialist{" "}
+                      <span className="is-bold">Certified Ecommerce Marketing Specialist</span>{" "}
                         <span className="regular-font">(DigitalMarketer)</span>
                       </p>
                       <p>
-                        Social Media Marketing{" "}
+                      <span className="is-bold">Social Media Marketing</span>{" "}
                         <span className="regular-font">(CDP)</span>
                       </p>
                     </div>
@@ -111,31 +112,31 @@ class About extends React.Component {
                 </div>
                 <div className="column ">
                   <h2 className="is-sub-title highlight is-bold">Skills:</h2>
-                  <p>Research & Strategy</p>
-                  <p>User Experience Design</p>
-                  <p>User Interface Design</p>
-                  <p>Digital Product Design</p>
-                  <p>Visual Identity Systems</p>
-                  <p>Brand Development</p>
-                  <p>Graphic Design</p>
-                  <p>Copywriting</p>
+                  <p className="is-bold">Research & Strategy</p>
+                  <p className="is-bold">User Experience Design</p>
+                  <p className="is-bold">User Interface Design</p>
+                  <p className="is-bold">Digital Product Design</p>
+                  <p className="is-bold">Visual Identity Systems</p>
+                  <p className="is-bold">Brand Development</p>
+                  <p className="is-bold">Graphic Design</p>
+                  <p className="is-bold">Copywriting</p>
                 </div>
                 <div className="column ">
                   <h2 className="is-sub-title highlight is-bold">Talks:</h2>
                   <p>
-                    How to design product pages that get you more sales{" "}
+                  <span className="is-bold">How to design product pages that get you more sales </span>{" "}
                     <span className="regular-font">
                       (Shopify Meetup PR 2017)
                     </span>
                   </p>
                   <p>
-                    Starting at the End{" "}
+                  <span className="is-bold">Starting at the End</span>{" "}
                     <span className="regular-font">
                       (Google Developers Group PR - Women Techmakers 2017)
                     </span>
                   </p>
                   <p>
-                    Accessibility for Web Designers and Developers{" "}
+                  <span className="is-bold"> Accessibility for Web Designers and Developers</span>{" "}
                     <span className="regular-font">
                       (Google Developers Group PR - DevFest 2016)
                     </span>

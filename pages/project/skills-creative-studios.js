@@ -12,12 +12,12 @@ const project = {
   ],
 
   about: [
-    <p className="is-size-4 aileron-bold">
+    <p className="is-size-4">
       Now one of the leading art galleries in Bayamon, Puerto Rico; Skills
       Creative Studios understood from the start that to go global a digital
       presence was essential.
     </p>,
-    <p className="is-size-4 aileron-bold">
+    <p className="is-size-4">
       This digital space aims to be an extension of their physical location.
       Giving art the prominence it deserves on all endeavors.
     </p>

@@ -1,6 +1,6 @@
 {
   "devFiles": [
-    "static/development/dll/dll_54a469c88c7f455941cb.js"
+    "static/development/dll/dll_11fbb1faa946535a5071.js"
   ],
   "pages": {
     "/": [
@@ -39,6 +39,13 @@
       "static/css/static/development/pages/project.js.chunk.css",
       "static/runtime/main.js"
     ],
+    "/project/collection-projects": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/project/collection-projects.js.chunk.css",
+      "static/runtime/main.js"
+    ],
     "/project/hernandez2": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
@@ -46,18 +53,18 @@
       "static/css/static/development/pages/project/hernandez2.js.chunk.css",
       "static/runtime/main.js"
     ],
+    "/project/skills-creative-studios": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/css/static/development/pages/project/skills-creative-studios.js.chunk.css",
+      "static/runtime/main.js"
+    ],
     "/project/stay-tuned": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/css/static/development/pages/project/stay-tuned.js.chunk.css",
-      "static/runtime/main.js"
-    ],
-    "/terms-of-use-and-privacy-policy": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/css/static/development/pages/terms-of-use-and-privacy-policy.js.chunk.css",
       "static/runtime/main.js"
     ]
   }
